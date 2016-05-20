@@ -77,6 +77,9 @@ a, a:active, a:focus, a:hover,
 .icon-play:before, .icon-playlist:before, .icon-history:before, .icon-heart:before {
 	color: #ff1a75;
 }
+#player-controller .right ul li .add-to-playlist-button.grabbed {
+    background: #ff1a75;
+}
 #player-controller .right ul li .dubup.voted {
 	background: #ff1a75;
 }
