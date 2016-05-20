@@ -117,8 +117,8 @@ span.name,
 
 /* Video Player */
 #main_player {
-	background: rgba(8,8,8,0.39);
-	border-radius: 0.4rem;
+	background: rgba(8,8,8,0.99);
+	border-radius: 5.0rem;
 }
 #main_player #custom_iframe_embed_error, #main_player .playbtn-el {
 	background: #ff0066;
