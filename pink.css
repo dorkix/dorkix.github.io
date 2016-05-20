@@ -116,41 +116,36 @@ span.name,
 }
 
 /* Video Player */
-#main_player {
-	background: rgba(8,8,8,0.99);
-	border-radius: 5.0rem;
+/* Main function */
+#main-room .left_section .main-player-wrapper { padding: 0; }
+#main_player, #main_player .player_sharing { border-top: none; }
+#main_player .player_header,
+#main_player .player_sharing {
+    z-index: 6;
+    bottom: 0;
+    width: 50%;
+    height: initial;
+    padding: 0;
+    background-color: rgba(0,0,0,.7);
+    opacity: 0;
+    transition: opacity .1s linear;
+    height: 3rem;
 }
-#main_player #custom_iframe_embed_error, #main_player .playbtn-el {
-	background: #ff0066;
+#main_player:hover .player_header,
+#main_player:hover .player_sharing {
+    opacity: 1;
 }
-
-/* Video Buttons (top) */
-#main_player .player_header span.active {
-	background: #ff0066;
-	color: #000000;
-	font-weight: 600;
+#main_player .player_header {
+    top: initial;
+    left: 0;
 }
-#main_player .player_header span {
-	background: rgba(8,8,8,0.39);
-	font-weight: 500;
-	color: #FFF;
+#main_player .player_header span.active { border-bottom: none; }
+#main_player .player_sharing {
+    right: 0;
+    padding: .8rem .5rem;
 }
-#room-info-display .room-info-display-wrapper h2 span i {
-	color: #ff0066;
-}
-#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active {
-	#color: #42A5DC !important;
-}
-
-/* Video Buttons (bottom) */
-#main_player .play-song-link {
-	background: rgba(8,8,8,0.99);
-	border-radius: 0.4rem;
-}
-#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min,
-#main_player .play-song-link .queue-info {
-	background: #ff0066;
-}
+#main_player .player_sharing > * { font-size: 1.2rem !important; }
+#main_player .player_sharing .player-controller-container .volume-controller-container { margin-top: .45rem; }
 
 /* Chat */
 #main-room .right_section, #profileMainSection {
