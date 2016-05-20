@@ -144,7 +144,7 @@ span.name,
 
 /* Video Buttons (bottom) */
 #main_player .play-song-link {
-	background: rgba(8,8,8,0.39);
+	background: rgba(8,8,8,0.99);
 	border-radius: 0.4rem;
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min,
@@ -154,7 +154,7 @@ span.name,
 
 /* Chat */
 #main-room .right_section, #profileMainSection {
-	background: rgba(8,8,8,0.39);
+	background: rgba(8,8,8,0.99);
 	border-radius: 0.4rem;
 }
 #chat .chat_tools span:hover {
@@ -274,12 +274,12 @@ span.name,
 
 /** Upvote/Downvote **/
 ul.avatar-list li.updub {
-	background: rgba(144,173,47,0.8);
+	background: rgba(144,173,47,0.9);
 	padding-left: 5px;
 	padding-right: 5px;
 }
 ul.avatar-list li.downdub {
-	background: rgba(196,46,59,0.3);
+	background: rgba(196,46,59,0.9);
 	padding-left: 5px;
 	padding-right: 5px;
 }
@@ -405,7 +405,7 @@ span.usernameContainer, .followers-counter,
 	outline: 1px solid #3D3C43;
 }
 #user_popover .actions a input {
-	background: rgba(61, 60, 67, 0.69);
+	background: rgba(61, 60, 67, 0.99);
 }
 
 /* sys message color change */
