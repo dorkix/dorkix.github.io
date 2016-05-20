@@ -1,13 +1,3 @@
-/*
-    Custom CSS for Dubtrack.fm
-    Editted Plug Theme and UI improvements
-    Originally made by @kris | Redone by @sinful | KRDemoZ Color Revision
-
-*/
-
-
-
-
 /* Main Menu (left) */
 #main-menu-left a.room-active-link {
 	color: #ff1a75;
@@ -93,7 +83,7 @@ a, a:active, a:focus, a:hover,
 	color: #C42E3B;
 }
 #player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, #player-controller .left, #player-controller .right {
-	background: #1A1A1A;
+	background: #000000;
 }
 
 /* Add to Playlist */
@@ -394,11 +384,11 @@ span.usernameContainer, .followers-counter,
 	background: #ff1a75;
 }
 #user_popover .actions, #user_popover .global-actions, #user_popover {
-	background: #ff1a75;
+	background: #000000;
 	opacity: .95;
 }
 #user_popover .global-actions a, #user_popover .usercontent header .dubs, #user_popover .usercontent header h3 {
-	color: #393A39;
+	color: #ff1a75;
 }
 #user_popover .global-actions a {
 	outline: 1px solid #393A39;
