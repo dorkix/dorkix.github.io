@@ -125,7 +125,7 @@ span.name,
 #main_player .player_sharing {
     z-index: 6;
     bottom: 0;
-    width: 400px !important;
+    width: 500px !important;
     height: initial;
     padding: 0;
     background-color: rgba(0,0,0,.7);
