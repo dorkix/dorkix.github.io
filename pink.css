@@ -95,10 +95,10 @@ a, a:active, a:focus, a:hover,
 
 /* Add to Playlist */
 #addToPlaylistFloatContainer .playlist-list-action li:hover {
-	color: #00ffd8;
+	color: #ff1a75;
 }
 #addToPlaylistFloatContainer .create-playlist-input .icon-add {
-	background: #00ffd8;
+	background: #ff1a75;
 }
 
 /* Lobby */
