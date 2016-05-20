@@ -17,17 +17,15 @@ Imports:
 */
 
 /* Imports */
-@import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completly to the right */
-@import url("https://netox005.github.io/Dubtrack/css/queuetofooter.css"); /* Queue buttons on right footer */
-@import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* Pack of animations */
-@import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Better recognizable Room BOTs */
-@import url("https://netox005.github.io/Dubtrack/css/voteicons.css"); /* NB3 Vote Icons */
-@import url("https://netox005.github.io/Dubtrack/css/browserbetter.css"); /* Modified Browser */
-@import url("https://netox005.github.io/Dubtrack/css/lobbybetter.css"); /* Modified Lobby */
-@import url("https://netox005.github.io/Dubtrack/css/roomformbetter.css"); /* Modified Room Form */
-@import url("https://hebgbs.github.io/rainbowNB3.css"); /* Rainbow video progress bar */
-@import url("https://netox005.github.io/Dubtrack/css/fixesnetux.css"); /* Netux Fixes */
-@import url("https://netox005.github.io/Dubtrack/css/adsheader.css"); /* Header advertisements */
+@import url("https://dorkix.github.io/chatright.css"); /* Chat completly to the right */
+@import url("https://dorkix.github.io/queuetofooter.css"); /* Queue buttons on right footer */
+@import url("https://dorkix.github.io/animations.css"); /* Pack of animations */
+@import url("https://dorkix.github.io/skynet.css"); /* Better recognizable Room BOTs */
+@import url("https://dorkix.github.io/browserbetter.css"); /* Modified Browser */
+@import url("https://dorkix.github.io/lobbybetter.css"); /* Modified Lobby */
+@import url("https://dorkix.github.io/roomformbetter.css"); /* Modified Room Form */
+@import url("https://dorkix.github.io/fixesnetux.css"); /* Netux Fixes */
+@import url("https://dorkix.github.io/adsheader.css"); /* Header advertisements */
 
 /* Main function */
 #main-room .main-room-wrapper { min-height: initial; }
