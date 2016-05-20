@@ -68,7 +68,7 @@ Imports:
     display: flex;
 }
 #main_player .player_header span {
-    width: 100%;
+    width: 150%;
     height: 100%;
     line-height: 1;
     border-radius: 0;
