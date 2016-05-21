@@ -13,6 +13,13 @@
 }
 
 /* Top Header */
+#header-global .header-left-navigation a {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 12px 0 0;
+    margin: 0 .75rem 0 0;
+    color: #FFFFFF;
+}
 a, a:active, a:focus, a:hover,
 #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron:hover {
 	color: #FFFFFF;
