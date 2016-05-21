@@ -111,6 +111,12 @@ a, a:active, a:focus, a:hover,
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
 	background: #ff1a75;
 }
+#player-controller .right ul li .add-to-playlist-button.grabbed {
+    background: rgb(214, 204, 203);
+}
+#player-controller .right ul li .add-to-playlist-button.grabbed .icon-heart:before {
+    color: #FF1A75;
+}
 .icon-play:before, .icon-playlist:before, .icon-history:before, .icon-heart:before {
 	color: #ff1a75;
 }
