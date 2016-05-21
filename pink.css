@@ -216,7 +216,7 @@ span.name,
     background: rgb(0, 0, 0);
 	border-radius: 0.4rem;
 }
-#main_player .play-song-link-container .play-song-link {
+#main_player .play-song-link-container .play-song-link, #main_player .play-song-link-container .play-song-link-browser {
     padding: 1rem 2rem;
     border-radius: 1rem;
     line-height: 1.7;
@@ -224,6 +224,7 @@ span.name,
     cursor: pointer;
     background: rgb(0, 0, 0);
     color: #fff;
+    display: none;
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min,
 #main_player .play-song-link .queue-info {
