@@ -245,7 +245,7 @@ span.name,
 #chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
 	color: rgb(170, 170, 170);
 }
-#chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"] {
+#chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
     color: #ff1a75 !important;
 }
 #chat .chat-container .chat-messages .chat-main li .activity-row .text .username-handle {
