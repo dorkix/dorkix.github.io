@@ -212,6 +212,13 @@ span.name,
 #main_player .player_sharing .player-controller-container span.videoquality-el.active-hd {
     color: #ff1a75;
 }
+#player-controller .right ul li a.display-browser [class^=queue-] {
+    position: relative;
+    top: -1.6px;
+    top: -.1rem;
+    /* border-top: 1px solid #000000; */
+    color: #FFFFFF;
+}
 /* Chat */
 #main-room .right_section, #profileMainSection {
 	background: rgba(5,5,5,5.99);
