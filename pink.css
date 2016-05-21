@@ -340,6 +340,14 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #ff3657 !important;
 }
 
+/*PLAYLIST BACKGROUND*/
+#browser .browser-content .browser-content-main .nano .content-videos {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(5,5,5,0.9);
+}
 /* Settings */
 #chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover {
 	color: #ff1a75;
@@ -372,6 +380,9 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-display span,
 #browser .browser-content #import-playlist-container .playlist-type-select span:hover {
 	color: #ff1a75;
+}
+#browser .browser-content .browser-content-main .sidebar {
+    background: rgba(5,5,5,0.9);
 }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item.selected {
