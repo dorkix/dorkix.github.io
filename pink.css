@@ -121,7 +121,7 @@ a, a:active, a:focus, a:hover, #header-global .header-left-navigation a.room-act
 	color: #FFFFFF;
 }
 #player-controller .right ul li .add-to-playlist-button.grabbed span {
-    color: #FFFFFF;
+    color: #000000;
 }
 #player-controller .right ul li .add-to-playlist-button.grabbed {
     background: #FFFFFF;
