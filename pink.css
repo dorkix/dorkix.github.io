@@ -126,6 +126,9 @@ a, a:active, a:focus, a:hover,
 #player-controller .right ul li .dubup .icon-arrow-up, #player-controller .right ul li .dubup .dub-counter {
 	color: #ff1a75;
 }
+#player-controller .right ul li .dubdown.voted span {
+    color: #000000;
+}
 #player-controller .right ul li .dubdown.voted {
 	background: #C42E3B;
 }
