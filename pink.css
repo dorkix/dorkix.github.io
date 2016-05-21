@@ -463,6 +463,9 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
     border: 1px solid #1c1c1c;
     border-bottom: 1px solid #2f2f2f;
 }
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info {
+    background: #E20C61;
+}
 #browser .browser-content .browser-content-main .nano .content-videos {
     position: relative;
     width: 100%;
