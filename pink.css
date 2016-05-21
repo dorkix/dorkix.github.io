@@ -263,7 +263,9 @@ span.name,
 	border-color: #ff1a75;
 }
 #chat .pusher-chat-widget-input #new-messages-counter {
-	background: #ff1a75;
+   background: #750F37;
+   color: #FFFFFF;
+   font-size: 1.5rem;
 }
 #chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
 	color: rgb(170, 170, 170);
