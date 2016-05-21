@@ -230,7 +230,12 @@ span.name,
 	color: rgb(170, 170, 170);
 }
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"] {
-    color: #FFDD6F !important;
+    color: #ff1a75 !important;
+}
+#chat .chat-container .chat-messages .chat-main li .activity-row .text .username-handle {
+    font-weight: 700;
+    /* border-top: 1px solid #000000; */
+    color: #FFDD6F;
 }
 #chat .chat-container .chat-messages .chat-main li.chat-system-loading, #chat .chat-container .chat-messages .chat-main li.chat-welcome-message, #chat .chat-container .chat-messages .chat-main li.system, #chat .chat-container .chat-messages .chat-main li.system-error {
 	font-size: 14px;
