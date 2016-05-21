@@ -118,7 +118,7 @@ a, a:active, a:focus, a:hover,
     color: #000000;
 }
 #player-controller .right ul li .add-to-playlist-button.grabbed {
-    background: #ff1a75;
+    background: #FF0065;
 }
 #player-controller .right ul li .dubup.voted span {
     color: #000000;
