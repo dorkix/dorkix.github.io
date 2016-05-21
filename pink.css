@@ -394,6 +394,20 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
     padding-right: 64px;
     padding-right: 4rem;
 }
+#browser .browser-content .browser-content-main .sidebar .create-playlist {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    padding: 8px 16px;
+    padding: .5rem 1rem;
+    font-weight: 700;
+    background: rgba(0, 0, 0, 0.04);
+    text-align: center;
+    color: #fff;
+    z-index: 9;
+    border-top: 1px solid rgba(142, 10, 83, 0.82);
+}       
 #browser .browser-content .browser-content-header .form input {
     background: rgba(255,26,117,0.2);
 }
