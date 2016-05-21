@@ -219,7 +219,7 @@ span.name,
     /* border-top: 1px solid #000000; */
     color: #FFFFFF;
 }
-    #player-controller .right ul li .grab-counter {
+#player-controller .right ul li .grab-counter {
     margin-left: 8px;
     margin-left: .5rem;
     display: inline-block;
