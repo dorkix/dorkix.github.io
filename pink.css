@@ -265,8 +265,8 @@ span.name,
 #chat .pusher-chat-widget-input #new-messages-counter {
    background: #750F37;
    color: #FFFFFF;
-   font-size: 1.5rem;
-   top: -13px;
+   font-size: 1.2rem;
+   top: -5px;
    opacity: 1;
 }
 #chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
