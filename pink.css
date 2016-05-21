@@ -217,6 +217,7 @@ span.name,
 	border-radius: 0.4rem;
 }
 #main_player .play-song-link-container .play-song-link, #main_player .play-song-link-container .play-song-link-browser {
+    padding: 16px 32px;
     padding: 1rem 2rem;
     border-radius: 1rem;
     line-height: 1.7;
