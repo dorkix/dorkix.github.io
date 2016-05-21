@@ -43,6 +43,27 @@ a, a:active, a:focus, a:hover,
     height: 40px;
     height: 2.5rem;
 }
+#browser .browser-content .browser-content-header .form .music-type-select .music-type-dropdown span {
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-right: 0;
+    padding: 8px 0;
+    padding: .5rem 0;
+    display: block;
+}
+#browser .browser-content .browser-content-header .form .music-type-select span {
+    display: inline-block;
+    font-size: 22.4px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin-right: 3.2px;
+    margin-right: .2rem;
+    height: 33.6px;
+    height: 2.1rem;
+    overflow: hidden;
+    padding-top: 6.4px;
+    padding-top: .4rem;
+    background: rgb(60, 14, 32);
+}
 #main-loading {
 	background: #ff1a75;
 }
