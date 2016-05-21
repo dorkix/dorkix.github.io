@@ -401,27 +401,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item.selected {
 	border: 1px solid #ff1a75;
 }
-#browser .browser-content .browser-content-main .sidebar .import-playlist {
-    bottom: 2.5rem;
-    cursor: pointer;
-    border-top: 1px solid #ff1a75;
-    background: rgba(0, 0, 0, 0.2);
-}
-#browser .browser-content .browser-content-main .sidebar .create-playlist,{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 8px 16px;
-    padding: .5rem 1rem;
-    font-weight: 700;
-    background: #545655;
-    text-align: center;
-    color: #fff;
-    z-index: 9;
-    border-bottom: 1px solid #ff1a75;
-    background: rgba(0, 0, 0, 0.2);
-}
+
 #browser .browser-content .browser-content-header .form {
     position: relative;
     padding: 8px 105.6px 8px 8px;
