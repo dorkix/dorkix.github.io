@@ -46,9 +46,9 @@
 }
 
 ul.avatar-list li.user-SunbaeBot p.dubs:before {
-    content: "known BOT - ";
+    content: "K-POP SQUAD BOT";
     text-shadow: 0 -1px 0 !important;
-    color: #8751B7 !important;
+    color: #f80361 !important;
 }
 
 
@@ -67,7 +67,7 @@ ul.avatar-list li.user-SunbaeBot p.dubs:before {
 }
 ul.avatar-list li.user-SunbaeBot p.username { color: #c3ff00 !important; }
 ul.avatar-list li.user-SunbaeBot p.dubs:before {
-    color: #c3ff00 !important;
+    color: #ff0076 !important;
     content: "Don't mess with me!"
     
 }
