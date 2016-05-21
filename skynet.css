@@ -16,7 +16,7 @@
     position: absolute;
     top: 7px;
     padding-left: 1.5rem;
-    width: 85%;
+    width: 100%;
     font-size: .75rem !important;
 }
 
@@ -62,10 +62,10 @@ ul.avatar-list li.user-SunbaeBot p.dubs:before {
 #chat .chat-main li.user-569922c7770a0c0e000d797f .activity-row .text p:first-of-type:before {
     content: "SunbaeBot";
     color: #ff0076 !important;
-    font-size: .75rem;
+    font-size: 1.2rem;
     padding-left: 0;
 }
-ul.avatar-list li.user-SunbaeBot p.username { color: #c3ff00 !important; }
+ul.avatar-list li.user-SunbaeBot p.username { color: #ff0076 !important; }
 ul.avatar-list li.user-SunbaeBot p.dubs:before {
     color: #ff0076 !important;
     content: "Don't mess with me!"
