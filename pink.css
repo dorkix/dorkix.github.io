@@ -115,13 +115,13 @@ a, a:active, a:focus, a:hover, #header-global .header-left-navigation a.room-act
     color: #FFFFFF;
 }
 #player-controller .right ul li .add-to-playlist-button.grabbed {
-    background: #FBFBFB;
+    background: ##FFFFFF;
 }
 #player-controller .right ul li .add-to-playlist-button.grabbed .icon-heart:before {
     color: #FF1A75;
 }
 .icon-play:before, .icon-playlist:before, .icon-history:before, .icon-heart:before {
-	color: #ff1a75;
+	color: ##FFFFFF;
 }
 #player-controller .right ul li .add-to-playlist-button.grabbed span {
     color: #000000;
