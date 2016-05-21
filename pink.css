@@ -433,6 +433,9 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 
 /*PLAYLIST BACKGROUND*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info {
+    background: #E20C61;
+}
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item {
     position:relative;
     display: block;
@@ -462,9 +465,6 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
     background: rgba(8, 8, 8, 0.02);
     border: 1px solid #1c1c1c;
     border-bottom: 1px solid #2f2f2f;
-}
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info {
-    background: #E20C61;
 }
 #browser .browser-content .browser-content-main .nano .content-videos {
     position: relative;
