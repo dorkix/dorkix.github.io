@@ -1,3 +1,13 @@
+/*
+    Custom CSS for Dubtrack.fm
+    Editted Plug Theme and UI improvements
+    Originally made by @kris | Redone by @sinful | KRDemoZ Color Revision
+
+*/
+
+
+
+
 /* Main Menu (left) */
 #main-menu-left a.room-active-link {
 	color: #ff1a75;
@@ -16,6 +26,17 @@
 a, a:active, a:focus, a:hover,
 #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron:hover {
 	color: #ff1a75;
+}
+#header-global {
+    position: fixed;
+    padding: 12.8px 16px;
+    padding: .8rem 1rem;
+    top: 0;
+    z-index: 7;
+    left: 0;
+    width: 100%;
+    background: rgba(5,5,5,5.99);
+    zoom: 1;
 }
 #main-loading {
 	background: #ff1a75;
@@ -110,8 +131,8 @@ span.name,
 
 /* Video Player */
 #main_player {
-	background: rgba(8,8,8,0.78);
-	border-radius: 0.4rem;
+	background: rgba(5,5,5,5.99);
+    border-radius: 0.4rem;
 }
 #main_player #custom_iframe_embed_error, #main_player .playbtn-el {
 	background: #ff1a75;
@@ -137,17 +158,19 @@ span.name,
 
 /* Video Buttons (bottom) */
 #main_player .play-song-link {
-	background: rgba(8,8,8,0.78);
+	background: rgba(5,5,5,5.99);
 	border-radius: 0.4rem;
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min,
 #main_player .play-song-link .queue-info {
 	background: #ff1a75;
 }
-
+#main_player .player_sharing .player-controller-container span.videoquality-el.active-hd {
+    color: #ff1a75;
+}
 /* Chat */
 #main-room .right_section, #profileMainSection {
-	background: rgba(8,8,8,0.78);
+	background: rgba(5,5,5,5.99);
 	border-radius: 0.4rem;
 }
 #chat .chat_tools span:hover {
