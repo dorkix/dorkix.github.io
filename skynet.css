@@ -37,9 +37,7 @@
     bottom: .2rem;
 }
 
-#chat .chat-main li.user-569922c7770a0c0e000d797f .activity-row .meta-info:first-of-type:before {
-content: "K-POP SQUAD BOT"; 
-}
+#chat .chat-main li.user-569922c7770a0c0e000d797f .activity-row .meta-info::first-of-type { content: "K-POP SQUAD BOT"; }
 
 #chat .chat-main li.user-569922c7770a0c0e000d797f .activity-row .text p:first-of-type:before {
     background: no-repeat left top;
