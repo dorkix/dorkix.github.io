@@ -209,9 +209,12 @@ span.name,
     background: rgb(0, 0, 0);
 }
 #main_player .player_header span {
-	background: rgba(0.0.0);
+	background: rgba(60, 57, 57, 0.9);
 	font-weight: 500;
 	color: #FFF;
+}
+#main_player .player_header span:hover {
+    background: #B91657;
 }
 #room-info-display .room-info-display-wrapper h2 span i {
 	color: #ff1a75;
