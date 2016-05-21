@@ -123,7 +123,7 @@ a, a:active, a:focus, a:hover,
 	background: #ff1a75;
 }
 a, a:active, a:focus, a:hover, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron:hover {
-    color: #FF1A75;
+    color: #ffffff;
 }
 #player-controller .right ul li .add-to-playlist-button.grabbed .icon-heart:before {
     color: #FF1A75;
@@ -486,6 +486,10 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
     border: 1px solid #000000;
     margin: .7rem .5rem .7rem 0;
     background: #3C0E20;
+}
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.text-button {
+    border: 1px solid #000000;
+    background: #340618;
 }
 /* Settings */
 #chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover {
