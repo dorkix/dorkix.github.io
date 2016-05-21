@@ -114,17 +114,14 @@ a, a:active, a:focus, a:hover,
 a, a:active, a:focus, a:hover, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron:hover {
     color: #FFFFFF;
 }
-#player-controller .right ul li .add-to-playlist-button.grabbed {
-    background: ##FFFFFF;
-}
 #player-controller .right ul li .add-to-playlist-button.grabbed .icon-heart:before {
     color: #FF1A75;
 }
 .icon-play:before, .icon-playlist:before, .icon-history:before, .icon-heart:before {
-	color: ##FFFFFF;
+	color: #FFFFFF;
 }
 #player-controller .right ul li .add-to-playlist-button.grabbed span {
-    color: #000000;
+    color: #FFFFFF;
 }
 #player-controller .right ul li .add-to-playlist-button.grabbed {
     background: #FF0065;
