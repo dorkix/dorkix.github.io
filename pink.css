@@ -199,6 +199,9 @@ span.name,
 	color: #000000;
 	font-weight: 600;
 }
+#main_player .play-song-link-container .play-song-link-browser {
+    background: rgb(0, 0, 0);
+}
 #main_player .player_header span {
 	background: rgba(0.0.0);
 	font-weight: 500;
