@@ -111,6 +111,9 @@ a, a:active, a:focus, a:hover,
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
 	background: #ff1a75;
 }
+a, a:active, a:focus, a:hover, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron:hover {
+    color: #FFFFFF;
+}
 #player-controller .right ul li .add-to-playlist-button.grabbed {
     background: #FBFBFB;
 }
