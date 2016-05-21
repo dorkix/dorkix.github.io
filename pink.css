@@ -112,7 +112,7 @@ a, a:active, a:focus, a:hover,
 	background: #ff1a75;
 }
 a, a:active, a:focus, a:hover, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron:hover {
-    color: ##FF1A75;
+    color: #FF1A75;
 }
 #player-controller .right ul li .add-to-playlist-button.grabbed .icon-heart:before {
     color: #FF1A75;
