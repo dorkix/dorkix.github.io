@@ -381,8 +381,33 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content #import-playlist-container .playlist-type-select span:hover {
 	color: #ff1a75;
 }
+/*SIDEBARCHANGES*/
 #browser .browser-content .browser-content-main .sidebar {
     background: rgba(5,5,5,0.9);
+}
+#browser .browser-content .browser-content-main .sidebar .import-playlist {
+    bottom: 40px;
+    bottom: 2.5rem;
+    cursor: pointer;
+    background: rgba(5,5,5,0.9);
+    border-top: 1px solid #ff1a75;
+}
+#browser .browser-content .browser-content-main .sidebar .create-playlist, #browser .browser-content .browser-content-main .sidebar .import-playlist {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 16px;
+    padding: .5rem 1rem;
+    font-weight: 700;
+    background: rgba(5,5,5,0.9);
+    text-align: center;
+    color: #fff;
+    z-index: 9;
+    border-top: 1px solid #ff1a75;
+}
+#browser .browser-content .browser-content-header .form input {
+    background: rgba(255,26,117,0.2);
 }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item.selected {
