@@ -417,7 +417,14 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
     padding: 19.2px 16px;
     padding: 1.2rem 1rem;
     color: #FFFFFF;
-    border-right: 1px solid #C50C56;
+    border-right: 1px solid #000000;
+    background: #3C0E20;
+}
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a.text-button {
+    padding: .2rem 1rem;
+    border: 1px solid #000000;
+    margin: .7rem .5rem .7rem 0;
+    background: #3C0E20;
 }
 /* Settings */
 #chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover {
