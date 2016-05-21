@@ -396,7 +396,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 #browser .browser-content .browser-content-main .sidebar .import-playlist {
     position: absolute;
-    bottom: 0;
+    bottom: 40px;
     left: 0;
     width: 100%;
     padding: 8px 16px;
