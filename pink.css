@@ -1,13 +1,3 @@
-/*
-    Custom CSS for Dubtrack.fm
-    Editted Plug Theme and UI improvements
-    Originally made by @kris | Redone by @sinful | KRDemoZ Color Revision
-
-*/
-
-
-
-
 /* Main Menu (left) */
 #main-menu-left a.room-active-link {
 	color: #ff1a75;
@@ -406,6 +396,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
     text-align: center;
     color: #fff;
     z-index: 9;
+    border-top: 1px solid #000000;
 }
 #browser .browser-content .browser-content-main .sidebar .create-playlist {
     position: absolute;
