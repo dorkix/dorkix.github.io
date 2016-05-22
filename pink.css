@@ -99,7 +99,7 @@ a, a:active, a:focus, a:hover,
 	background: #1A1A1A;
 }
 #private-messages .main-message-list ul.message-list li.message-item {
-    border-bottom: 1px solid #333;
+    border-bottom: 3px solid #FF1A75;
     background: #000000;
 }
 #private-messages .main-message-list .message-header {
