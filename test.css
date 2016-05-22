@@ -36,7 +36,7 @@ a, a:active, a:focus, a:hover,
     z-index: 7;
     left: 0;
     width: 100%;
-    background: rgba(5,5,5,5.99);
+    background: rgba(5, 5, 5, 0.9);
     zoom: 1;
 }
 #browser .browser-content .browser-content-header .form .music-type-select {
@@ -311,8 +311,8 @@ span.name,
     color: #FFFFFF;
 }
 /* Chat */
-#main-room .right_section, {
-	background: rgba(5, 5, 5, 0.39);
+#main-room .right_section {
+	background: rgba(0, 0, 0, 0.9);
 	border-radius: 0.4rem;
 }
 #profileMainSection {
