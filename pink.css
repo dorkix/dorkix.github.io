@@ -323,8 +323,12 @@ span.name,
     border-bottom: 1px solid #878c8e;
     background: rgba(0, 0, 0, 0.01);
 }
-#chat .chat_tools span.icon-people i.room-guest-counter {
+#chat .chat_tools span.icon-people i.room-guest-counter { /*GUEST NUMBER*/
     color: #FF1A75;
+}
+#chat .chat_tools span:after {
+    border-color: #FF1A75;
+    width: 103%;
 }
 #chat .chat_tools span:hover {
 	color: #ff1a75;
