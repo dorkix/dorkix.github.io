@@ -104,6 +104,7 @@ a, a:active, a:focus, a:hover,
 }
 #private-messages .main-message-list .message-header {
     border-bottom: 1px solid #ff1a75;
+    border-left: 3px solid #ff1a75;
     background: #000000;
 }
 #private-messages .main-message-list input {
@@ -128,10 +129,11 @@ a, a:active, a:focus, a:hover,
     background: #000000;
 }
 #main-menu-right .close-menu {
-  background: #2E2A2A;
+  background: #000000;
   border-bottom: 3px solid #FF1A75;
   border-left: 3px solid #FF1A75;
   border-top: 3px solid #FF1A75;  
+  top: 55px;
 }
 .icon-close:before {
     content: "\e903";
@@ -706,4 +708,3 @@ span.usernameContainer, .followers-counter,
     border-top: #ff1a75 1px solid !important;
     border-bottom: #ff1a75 1px solid !important;
 }
-pr
