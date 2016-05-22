@@ -103,7 +103,7 @@ a, a:active, a:focus, a:hover,
     background: rgb(0, 0, 0);
 }
 #private-messages .main-message-list .message-header {
-    border-bottom: 1px solid #ff1a75;
+    border-bottom: 3px solid #ff1a75;
     border-left: 3px solid #ff1a75;
     background: #000000;
 }
