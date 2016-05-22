@@ -140,8 +140,7 @@ a, a:active, a:focus, a:hover,
     color: #ff1a75;
 }
 #private-messages .message-details ul.message-list li.message-item .message-content p {
-    color: #fdfdfd;
-
+    color: #ffffff;
 }
 
 /* DubX Menu */
