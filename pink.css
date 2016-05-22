@@ -110,6 +110,33 @@ a, a:active, a:focus, a:hover,
     border: 1px solid #FF1A75;
     background: #000000;
 }
+#private-messages .message-details ul.message-list li.message-item {
+    background: #000000;
+}
+#private-messages .message-details .input-container {
+    background: #000000;
+    border-top: 1px solid #ff1a75;
+}
+#private-messages .message-details input {
+    border: 1px solid #FF1A75;
+    background: #000000;
+}
+#private-messages .message-details .message-header {
+    top: -5px;
+    border-bottom: 3px solid #FF1A75;
+    border-left: 3px solid #FF1A75;
+    background: #000000;
+}
+#main-menu-right .close-menu {
+  background: #2E2A2A;
+  border-bottom: 3px solid #FF1A75;
+  border-left: 3px solid #FF1A75;
+  border-top: 3px solid #FF1A75;  
+}
+.icon-close:before {
+    content: "\e903";
+    color: #ff1a75;
+}
 /* DubX Menu */
 .for_content {
 	background: #1A1A1A !important;
@@ -679,3 +706,4 @@ span.usernameContainer, .followers-counter,
     border-top: #ff1a75 1px solid !important;
     border-bottom: #ff1a75 1px solid !important;
 }
+pr
