@@ -365,16 +365,16 @@ span.name,
    color: #ffffff !important;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.manager p.username {
-   color: #3bff00 !important; 
+   color: #ffffff !important; 
 }
 #main_avatar_room #main-user-list-room #avatar-list li.mod p.username {
-   color: #0010d4 !important; 
+   color: #ffffff !important; 
 }
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username {
-   color: #ffc506 !important; 
+   color: #ffffff !important; 
 }
 #main_avatar_room #main-user-list-room #avatar-list li.vip p.username {
-   color: #00fff5 !important; 
+   color: #ffffff !important; 
 }
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
    color: #99003d !important; 
