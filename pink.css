@@ -316,7 +316,7 @@ span.name,
 	border-radius: 0.4rem;
 }
 #profileMainSection {
-    background: rgb(5, 5, 5);
+    background: rgba(5, 5, 5, 0.50);
 }
 #chat .chat_tools { /*CHAT TRANSPARENCY*/
     position: absolute;
