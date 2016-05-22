@@ -245,7 +245,7 @@ span.name,
 
 /* Video Player */
 #main_player {
-	background: rgba(5,5,5,5.99);
+	background: rgba(0, 0, 0, 0.9);
     border-radius: 0.4rem;
 }
 #main_player #custom_iframe_embed_error, #main_player .playbtn-el {
