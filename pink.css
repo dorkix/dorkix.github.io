@@ -107,6 +107,12 @@ a, a:active, a:focus, a:hover,
     border-left: 3px solid #ff1a75;
     background: #000000;
 }
+#private-messages .main-message-list .message-header input {
+    border-bottom: 3px solid #FF1A75;
+    border-left: 3px solid #FF1A75;
+    border-top: 3px solid #FF1A75;
+    background: #000000;
+}
 #private-messages .main-message-list input {
     border: 1px solid #FF1A75;
     background: #000000;
@@ -116,10 +122,10 @@ a, a:active, a:focus, a:hover,
 }
 #private-messages .message-details .input-container {
     background: #000000;
-    border-top: 1px solid #ff1a75;
+    border-top: 3px solid #FF1A75;
 }
 #private-messages .message-details input {
-    border: 1px solid #FF1A75;
+    border: 3px solid #FF1A75;
     background: #000000;
 }
 #private-messages .message-details .message-header {
@@ -137,7 +143,7 @@ a, a:active, a:focus, a:hover,
 }
 .icon-close:before {
     content: "\e903";
-    color: #ff1a75;
+    color: #FF1A75;
 }
 #private-messages .message-details ul.message-list li.message-item .message-content p {
     color: #ffffff;
