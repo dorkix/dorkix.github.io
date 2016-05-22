@@ -377,22 +377,22 @@ span.name,
    color: #ffffff !important; 
 }
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
-   color: #800033 !important; 
+   color: #ff0066 !important; 
 }
 #main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after {
-   color: #4d001f !important; 
+   color: #cc0052 !important; 
 }
 #main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after {
-   color: #b30047 !important;
+   color: #ff4d94 !important;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.mod p.username:after {
-   color: #e6005c !important; 
+   color: #ff80b3 !important; 
 }
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username:after {
-   color: #ff66a3 !important; 
+   color: #ffe6f0 !important; 
 }
 #main_avatar_room #main-user-list-room #avatar-list li.vip p.username:after {
-   color: #ff1a75 !important; 
+   color: #ffb3d1 !important; 
 }
 /** Current DJ **/
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username,
