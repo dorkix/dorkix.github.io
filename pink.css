@@ -268,7 +268,7 @@ span.name,
     background: rgb(0, 0, 0);
 }
 #main_player .player_header span {
-	background: rgba(60, 57, 57, 0.9);
+	background: rgba(60, 57, 57, 0.9); /*PLAYER TRANSPARENCY*/
 	font-weight: 500;
 	color: #FFF;
 }
@@ -312,7 +312,7 @@ span.name,
 }
 /* Chat */
 #main-room .right_section {
-	background: rgba(0, 0, 0, 0.9);
+	background: rgba(0, 0, 0, 0.9); /*CHAT TRANSPARENCY*/
 	border-radius: 0.4rem;
 }
 #profileMainSection {
@@ -600,6 +600,10 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 .icon-add:before {
     content: "\e80d";
     color: #000000;
+}
+#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form .icon-createplaylist {
+  background: #FF1A75;
+  color: #000000;
 }
 /* Settings */
 #chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover {
