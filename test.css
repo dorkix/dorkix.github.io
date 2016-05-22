@@ -311,9 +311,12 @@ span.name,
     color: #FFFFFF;
 }
 /* Chat */
-#main-room .right_section, #profileMainSection {
-	background: rgba(5,5,5,5.99);
+#main-room .right_section, {
+	background: rgba(5, 5, 5, 0.39);
 	border-radius: 0.4rem;
+}
+#profileMainSection {
+    background: rgb(5, 5, 5);
 }
 #chat .chat_tools span:hover {
 	color: #ff1a75;
@@ -327,9 +330,6 @@ span.name,
    font-size: 1.2rem;
    top: -5px;
    opacity: 1;
-}
-#chat .chat-container .chat-messages {
-    background: rgba(9, 9, 9, 0);
 }
 #chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
 	color: rgb(170, 170, 170);
