@@ -148,7 +148,9 @@ a, a:active, a:focus, a:hover,
 #private-messages .message-details ul.message-list li.message-item .message-content p {
     color: #ffffff;
 }
-
+#private-messages .main-message-list ul.message-list li.message-item .message-content p {
+    color: #FFFFFF;
+}
 /* DubX Menu */
 .for_content {
 	background: #1A1A1A !important;
