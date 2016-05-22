@@ -363,16 +363,27 @@ span.name,
 #main_avatar_room #main-user-list-room #avatar-list li.manager p.username,
 #main_avatar_room #main-user-list-room #avatar-list li.mod p.username,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.vip p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.mod p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.vip p.username:after {
-	color: #ff1a75;
+#main_avatar_room #main-user-list-room #avatar-list li.vip p.username, {
+	color: #ffffff;
 }
-
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after, {
+   color: #99003d;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after, {
+   color: #660029;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after, {
+   color: #cc0052;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.mod p.username:after, {
+   color: #ff0065;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username:after, {
+   color: #ff3385;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.vip p.username:after {
+   color: #ff66a3;
+}
 /** Current DJ **/
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username,
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
@@ -381,7 +392,7 @@ span.name,
 
 /** Users **/
 #main_avatar_room #main-user-list-room #avatar-list li p {
-	color: #AAAAAA;
+	color: #9b8f8f;
 }
 
 /** Upvote/Downvote **/
