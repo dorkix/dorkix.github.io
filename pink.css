@@ -100,7 +100,7 @@ a, a:active, a:focus, a:hover,
 }
 #private-messages .main-message-list ul.message-list li.message-item {
     border-bottom: 1px solid #333;
-    background: rgb(0, 0, 0);
+    background: #000000;
 }
 #private-messages .main-message-list .message-header {
     border-bottom: 3px solid #ff1a75;
@@ -139,6 +139,11 @@ a, a:active, a:focus, a:hover,
     content: "\e903";
     color: #ff1a75;
 }
+#private-messages .message-details ul.message-list li.message-item .message-content p {
+    color: #fdfdfd;
+
+}
+
 /* DubX Menu */
 .for_content {
 	background: #1A1A1A !important;
