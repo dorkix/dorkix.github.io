@@ -36,7 +36,7 @@ a, a:active, a:focus, a:hover,
     z-index: 7;
     left: 0;
     width: 100%;
-    background: rgba(5,5,5,5.99);
+    background: rgba(5, 5, 5, 0.9);
     zoom: 1;
 }
 #browser .browser-content .browser-content-header .form .music-type-select {
@@ -245,7 +245,7 @@ span.name,
 
 /* Video Player */
 #main_player {
-	background: rgba(5,5,5,5.99);
+	background: rgba(0, 0, 0, 0.9);
     border-radius: 0.4rem;
 }
 #main_player #custom_iframe_embed_error, #main_player .playbtn-el {
@@ -311,9 +311,12 @@ span.name,
     color: #FFFFFF;
 }
 /* Chat */
-#main-room .right_section, #profileMainSection {
-	background: rgba(5,5,5,5.99);
+#main-room .right_section {
+	background: rgba(0, 0, 0, 0.9);
 	border-radius: 0.4rem;
+}
+#profileMainSection {
+    background: rgb(5, 5, 5);
 }
 #chat .chat_tools span:hover {
 	color: #ff1a75;
@@ -515,6 +518,16 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 /*PLAYLIST BACKGROUND*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info {
     background: #E20C61;
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item {
+    position:relative;
+    display: block;
+    padding: 8px 24px 8px 16px;
+    padding: .5rem 1.5rem .5rem 1rem;
+    cursor: pointer;
+    background: rgba(8, 8, 8, 0.02);
+    border: 1px solid #1c1c1c;
+    border-bottom: 1px solid #2f2f2f;
 }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item {
     position:relative;
