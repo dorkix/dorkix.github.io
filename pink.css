@@ -374,7 +374,7 @@ span.name,
    color: #ffffff !important;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.vip p.username {
-   color: #ffffff !important;
+   color: #00fff5 !important;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
    color: #99003d !important;
