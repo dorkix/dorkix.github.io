@@ -98,7 +98,18 @@ a, a:active, a:focus, a:hover,
 #private-messages .main-message-list, #private-messages .message-details {
 	background: #1A1A1A;
 }
-
+#private-messages .main-message-list ul.message-list li.message-item {
+    border-bottom: 1px solid #333;
+    background: rgb(0, 0, 0);
+}
+#private-messages .main-message-list .message-header {
+    border-bottom: 1px solid #ff1a75;
+    background: #000000;
+}
+#private-messages .main-message-list input {
+    border: 1px solid #FF1A75;
+    background: #000000;
+}
 /* DubX Menu */
 .for_content {
 	background: #1A1A1A !important;
