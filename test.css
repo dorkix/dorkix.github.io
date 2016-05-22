@@ -1,37 +1,85 @@
-/*
-    Custom CSS for Dubtrack.fm
-    Editted Plug Theme and UI improvements
-    Originally made by @kris | Redone by @sinful | KRDemoZ Color Revision
-
-*/
-
-
-
-
 /* Main Menu (left) */
 #main-menu-left a.room-active-link {
-	color: #ff69b4;
-    box-shadow: inset 4px 0px 0px 0px #ff69b4
+	color: #ff1a75;
+    box-shadow: inset 4px 0px 0px 0px #ff1a75
 }
 
 #header-global .header-left-navigation:after {
-	color: #ff69b4 !important;
+	color: #ff1a75 !important;
 }
 /* Main Menu (right) */
 #header-global .header-right-navigation .user-info span {
-	color: #ff69b4;
+	color: #ff1a75;
 }
 
 /* Top Header */
+#header-global .header-left-navigation a {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 12px 0 0;
+    margin: 0 .75rem 0 0;
+    color: #FFFFFF;
+}
+.icon-chevron:before {
+    content: "\e800";
+    color: #FF1A75;
+}
 a, a:active, a:focus, a:hover,
 #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron:hover {
-	color: #ff69b4;
+	color: #FFFFFF;
+}
+#header-global {
+    position: fixed;
+    padding: 12.8px 16px;
+    padding: .8rem 1rem;
+    top: 0;
+    z-index: 7;
+    left: 0;
+    width: 100%;
+    background: rgba(5,5,5,5.99);
+    zoom: 1;
+}
+#browser .browser-content .browser-content-header .form .music-type-select {
+    position: absolute;
+    right: 8px;
+    right: .5rem;
+    top: 8px;
+    top: .5rem;
+    width: 96px;
+    width: 6rem;
+    background: rgb(60, 14, 32);
+    padding: 0 0 0 8px;
+    padding: 0 0 0 .5rem;
+    z-index: 8;
+    height: 40px;
+    height: 2.5rem;
+}
+#browser .browser-content .browser-content-header .form .music-type-select .music-type-dropdown span {
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-right: 0;
+    padding: 8px 0;
+    padding: .5rem 0;
+    display: block;
+}
+#browser .browser-content .browser-content-header .form .music-type-select span {
+    display: inline-block;
+    font-size: 22.4px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin-right: 3.2px;
+    margin-right: .2rem;
+    height: 33.6px;
+    height: 2.1rem;
+    overflow: hidden;
+    padding-top: 6.4px;
+    padding-top: .4rem;
+    background: rgb(60, 14, 32);
 }
 #main-loading {
-	background: #ff69b4;
+	background: #ff1a75;
 }
 #header-global .header-right-navigation .user-messages .message-counter {
-	background: #ff69b4;
+	background: #ff1a75;
 }
 
 /* Private Messages */
@@ -39,18 +87,73 @@ a, a:active, a:focus, a:hover,
 #private-messages .main-message-list .message-header a, #private-messages .message-details .message-header a,
 #private-messages .message-details ul.message-list li.message-item .message-content h3,
 #private-messages .private-message-details-info, #private-messages .private-message-info {
-	color: #ff69b4;
+	color: #ff1a75;
 }
 #private-messages .loading {
-	background: #ff69b4;
+	background: #ff1a75;
 }
 #private-messages .main-message-list ul.message-list li.message-item.new-message:before, #private-messages .message-details ul.message-list li.message-item.new-message:before {
-	background: #ff69b4;
+	background: #ff1a75;
 }
 #private-messages .main-message-list, #private-messages .message-details {
 	background: #1A1A1A;
 }
-
+#private-messages .main-message-list ul.message-list li.message-item {
+    border-bottom: 3px solid #FF1A75;
+    background: #000000;
+}
+#private-messages .main-message-list .message-header {
+    border-bottom: 3px solid #ff1a75;
+    border-left: 3px solid #ff1a75;
+    background: #000000;
+}
+#private-messages .main-message-list .message-header input {
+    border-bottom: 3px solid #FF1A75;
+    border-left: 3px solid #FF1A75;
+    border-top: 3px solid #FF1A75;
+    background: #000000;
+}
+#private-messages .main-message-list input {
+    border: 1px solid #FF1A75;
+    background: #000000;
+}
+#private-messages .message-details ul.message-list li.message-item {
+    background: #000000;
+}
+#private-messages .message-details .input-container {
+    background: #000000;
+    border-top: 3px solid #FF1A75;
+}
+#private-messages .message-details input {
+    border: 3px solid #FF1A75;
+    background: #000000;
+}
+#private-messages .message-details .message-header {
+    top: -5px;
+    border-bottom: 3px solid #FF1A75;
+    border-left: 3px solid #FF1A75;
+    background: #000000;
+}
+#main-menu-right .close-menu {
+  background: #000000;
+  border-bottom: 3px solid #FF1A75;
+  border-left: 3px solid #FF1A75;
+  border-top: 3px solid #FF1A75;  
+  top: 55px;
+}
+.icon-close:before {
+    content: "\e903";
+    color: #FF1A75;
+}
+#private-messages .message-details ul.message-list li.message-item .message-content p {
+    color: #ffffff;
+}
+#private-messages .main-message-list ul.message-list li.message-item .message-content p {
+    color: #FFFFFF;
+}
+#private-messages .main-message-list .message-list-wrapper .message-list-wrapper-inner {
+  background: #000000;  
+}
 /* DubX Menu */
 .for_content {
 	background: #1A1A1A !important;
@@ -59,29 +162,54 @@ a, a:active, a:focus, a:hover,
 	color: #DDDDDD !important;
 }
 .for_content_version, .for_content_p {
-	color: #ff69b4 !important;
+	color: #ff1a75 !important;
 }
 
 /** DubX Feature Menus **/
 .onErr .container .control .confirm {
-	background: #ff69b4 !important;
+	background: #ff1a75 !important;
 }
 .for_content_c {
-	#color: #ff69b4 !important;
+	#color: #ff1a75 !important;
 }
 
 /* Bottom Header */
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
-	background: #ff69b4;
+	background: #ff1a75;
 }
-.icon-play:before, .icon-playlist:before, .icon-history:before, .icon-heart:before {
-	color: #ff69b4;
+a, a:active, a:focus, a:hover, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron:hover {
+    color: #ffffff;
+}
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a {
+    background: #340618;
+    border-right: 1px solid #040404;
+}
+#player-controller .right ul li .add-to-playlist-button.grabbed .icon-heart:before {
+    color: #FF1A75;
+}
+.icon-playlist:before, .icon-history:before, .icon-heart:before {
+	color: #FF1A75;
+}
+.icon-play:before {
+    color: #FF1A75;
+}
+#player-controller .right ul li .add-to-playlist-button.grabbed span {
+    color: #000000;
+}
+#player-controller .right ul li .add-to-playlist-button.grabbed {
+    background: #FFFFFF;
+}
+#player-controller .right ul li .dubup.voted span {
+    color: #000000;
 }
 #player-controller .right ul li .dubup.voted {
-	background: #ff69b4;
+	background: #ff1a75;
 }
 #player-controller .right ul li .dubup .icon-arrow-up, #player-controller .right ul li .dubup .dub-counter {
-	color: #ff69b4;
+	color: #ff1a75;
+}
+#player-controller .right ul li .dubdown.voted span {
+    color: #000000;
 }
 #player-controller .right ul li .dubdown.voted {
 	background: #C42E3B;
@@ -90,53 +218,65 @@ a, a:active, a:focus, a:hover,
 	color: #C42E3B;
 }
 #player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, #player-controller .left, #player-controller .right {
-	background: #1A1A1A;
+	background: #000000;
 }
 
 /* Add to Playlist */
 #addToPlaylistFloatContainer .playlist-list-action li:hover {
-	color: #ff69b4;
+	color: #ff1a75;
 }
 #addToPlaylistFloatContainer .create-playlist-input .icon-add {
-	background: #ff69b4;
+	background: #ff1a75;
 }
 
 /* Lobby */
 span.name,
 #room-list #container-room-list .room-item .current-song, #room-list #container-room-list .room-item .roomImage .join {
-	color: #ff69b4;
+	color: #ff1a75;
     opacity: 0.5;
 }
 #room-list #container-room-list .room-item .roomImage .join {
-	background: #ff69b4;
+	background: #ff1a75;
 }
 #warning {
-	background: #ff69b4;
+	background: #ff1a75;
 	opacity: .90;
 }
 
 /* Video Player */
 #main_player {
-	background: rgba(8,8,8,0.78);
-	border-radius: 0.4rem;
+	background: rgba(5,5,5,5.99);
+    border-radius: 0.4rem;
 }
 #main_player #custom_iframe_embed_error, #main_player .playbtn-el {
-	background: #ff69b4;
+	background: #ff1a75;
 }
 
 /* Video Buttons (top) */
 #main_player .player_header span.active {
-	background: #ff69b4;
+	background: #ff1a75;
 	color: #000000;
 	font-weight: 600;
 }
+#main_player .play-song-link-container .play-song-link-browser {
+    background: rgb(0, 0, 0);
+}
+#main_player .play-song-link-container .play-song-link.active-queue-display {
+    background: rgb(0, 0, 0);
+}
+#main_player .play-song-link-container .play-song-link.active-queue-display.leave-button {
+    background: rgb(0, 0, 0);
+}
 #main_player .player_header span {
-	background: rgba(8,8,8,0.78);
+	background: rgba(60, 57, 57, 0.9);
 	font-weight: 500;
 	color: #FFF;
 }
+#main_player .player_header span:hover {
+    background: #B91657;
+}
 #room-info-display .room-info-display-wrapper h2 span i {
-	color: #ff69b4;
+	color: #ff1a75;
 }
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active {
 	#color: #42A5DC !important;
@@ -144,33 +284,63 @@ span.name,
 
 /* Video Buttons (bottom) */
 #main_player .play-song-link {
-	background: rgba(8,8,8,0.78);
+    background: rgb(0, 0, 0);
 	border-radius: 0.4rem;
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min,
 #main_player .play-song-link .queue-info {
-	background: #ff69b4;
+	background: #ff1a75;
 }
-
+#main_player .player_sharing .player-controller-container span.videoquality-el.active-hd {
+    color: #ff1a75;
+}
+#player-controller .right ul li a.display-browser [class^=queue-] {
+    position: relative;
+    top: -1.6px;
+    top: -.1rem;
+    /* border-top: 1px solid #000000; */
+    color: #FFFFFF;
+}
+#player-controller .right ul li .grab-counter {
+    margin-left: 8px;
+    margin-left: .5rem;
+    display: inline-block;
+    position: relative;
+    top: -1.6px;
+    top: -.1rem;
+    color: #FFFFFF;
+}
 /* Chat */
 #main-room .right_section, #profileMainSection {
-	background: rgba(8,8,8,0.78);
+	background: rgba(5,5,5,5.99);
 	border-radius: 0.4rem;
 }
 #chat .chat_tools span:hover {
-	color: #ff69b4;
+	color: #ff1a75;
 }
 #chat .chat_tools span:after {
-	border-color: #ff69b4;
+	border-color: #ff1a75;
 }
 #chat .pusher-chat-widget-input #new-messages-counter {
-	background: #ff69b4;
+   background: #750F37;
+   color: #FFFFFF;
+   font-size: 1.2rem;
+   top: -5px;
+   opacity: 1;
+}
+#chat .chat-container .chat-messages {
+    background: rgba(9, 9, 9, 0);
 }
 #chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
 	color: rgb(170, 170, 170);
 }
-#chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"] {
-    color: #FFDD6F !important;
+#chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
+    color: #ff1a75 !important;
+}
+#chat .chat-container .chat-messages .chat-main li .activity-row .text .username-handle {
+    font-weight: 700;
+    /* border-top: 1px solid #000000; */
+    color: #ff1a75;
 }
 #chat .chat-container .chat-messages .chat-main li.chat-system-loading, #chat .chat-container .chat-messages .chat-main li.chat-welcome-message, #chat .chat-container .chat-messages .chat-main li.system, #chat .chat-container .chat-messages .chat-main li.system-error {
 	font-size: 14px;
@@ -179,36 +349,36 @@ span.name,
 #chat .chat-main .isOwner .username,
 #chat .chat-main .isOwner .username:hover,
 #chat .chat-main .isOwner .username:visited{
-    color: #ff69b4;
+    color: #ff1a75;
 }
 
 #chat .chat-main .isCo-owner .username,
 #chat .chat-main .isCo-owner .username:hover,
 #chat .chat-main .isCo-owner .username:visited{
-    color: #ff69b4;
+    color: #ff1a75;
 }
 
 #chat .chat-main .isManager .username,
 #chat .chat-main .isManager .username:hover,
 #chat .chat-main .isManager .username:visited{
-    color: #ff69b4;
+    color: #ff1a75;
 }
 
 #chat .chat-main .isMod .username,
 #chat .chat-main .isMod .username:hover,
 #chat .chat-main .isMod .username:visited{
-    color: #ff69b4;
+    color: #ff1a75;
 }
 
 #chat .chat-main .isResident-dj .username,
 #chat .chat-main .isResident-dj .username:hover,
 #chat .chat-main .isResident-dj .username:visited{
-    color: #ff69b4;
+    color: #ff1a75;
 }
 #chat .chat-main .isVip .username,
 #chat .chat-main .isVip .username:hover,
 #chat .chat-main .isVip .username:visited{
-    color: #ff69b4;
+    color: #ff1a75;
 }
 
 
@@ -246,21 +416,42 @@ span.name,
 }
 
 /** Moderators **/
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.creator p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.manager p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.mod p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.vip p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.mod p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list li.vip p.username:after {
-	color: #ff69b4;
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username {
+   color: #ffffff !important;
 }
-
+#main_avatar_room #main-user-list-room #avatar-list li.creator p.username {
+   color: #ffffff !important;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.manager p.username {
+   color: #ffffff !important; 
+}
+#main_avatar_room #main-user-list-room #avatar-list li.mod p.username {
+   color: #ffffff !important; 
+}
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username {
+   color: #ffffff !important; 
+}
+#main_avatar_room #main-user-list-room #avatar-list li.vip p.username {
+   color: #ffffff !important; 
+}
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
+   color: #e6005c !important; 
+}
+#main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after {
+   color: #b30047 !important; 
+}
+#main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after {
+   color: #ff1a75 !important;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.mod p.username:after {
+   color: #ff4d94 !important; 
+}
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username:after {
+   color: #ffb3d1 !important; 
+}
+#main_avatar_room #main-user-list-room #avatar-list li.vip p.username:after {
+   color: #ff66a3 !important; 
+}
 /** Current DJ **/
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username,
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
@@ -269,7 +460,7 @@ span.name,
 
 /** Users **/
 #main_avatar_room #main-user-list-room #avatar-list li p {
-	color: #AAAAAA;
+	color: #9b8f8f;
 }
 
 /** Upvote/Downvote **/
@@ -324,17 +515,92 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #ff3657 !important;
 }
 
+/*PLAYLIST BACKGROUND*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info {
+    background: #E20C61;
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item {
+    position:relative;
+    display: block;
+    padding: 8px 24px 8px 16px;
+    padding: .5rem 1.5rem .5rem 1rem;
+    cursor: pointer;
+    background: rgba(8, 8, 8, 0.02);
+    border: 1px solid #1c1c1c;
+    border-bottom: 1px solid #2f2f2f;
+}   
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item {
+    position: relative;
+    display: block;
+    padding: 8px 24px 8px 16px;
+    padding: .5rem 1.5rem .5rem 1rem;
+    cursor: pointer;
+    background: rgba(8, 8, 8, 0.02);
+    border: 1px solid #1c1c1c;
+    border-bottom: 1px solid #2f2f2f;
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item {
+    position: relative;
+    display: block;
+    padding: 8px 24px 8px 16px;
+    padding: .5rem 1.5rem .5rem 1rem;
+    cursor: pointer;
+    background: rgba(8, 8, 8, 0.02);
+    border: 1px solid #1c1c1c;
+    border-bottom: 1px solid #2f2f2f;
+}
+#browser .browser-content .browser-content-main .nano .content-videos {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(5,5,5,0.9);
+}
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a {
+    float: right;
+    padding: 19.2px 16px;
+    padding: 1.2rem 1rem;
+    color: #FFFFFF;
+    border-right: 1px solid #000000;
+    background: #3C0E20;
+}
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a.text-button {
+    padding: .2rem 1rem;
+    border: 1px solid #000000;
+    margin: .7rem .5rem .7rem 0;
+    background: #3C0E20;
+}
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.text-button {
+    border: 1px solid #000000;
+    background: #340618;
+}
+#addToPlaylistFloatContainer .playlist-list-action li {
+    border-bottom: 1px solid #FF1A75;
+    cursor: pointer;
+    background: #000000;
+}
+#addToPlaylistFloatContainer .create-playlist-header {
+    color: #FF1A75;
+    background: #000000;
+}
+#addToPlaylistFloatContainer .create-playlist-input input {
+   border-bottom: 3px solid #FF1A75;
+   background: rgb(0, 0, 0);
+}
+.icon-add:before {
+    content: "\e80d";
+    color: #000000;
+}
 /* Settings */
 #chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover {
-	color: #ff69b4;
+	color: #ff1a75;
 }
-
 /* Queue */
 #browser .browser-content .browser-content-header .close-browser,
 #browser .browser-content .browser-content-main .nano .loading,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success,
 #browser .browser-content #import-playlist-container .close-import-playlist {
-	background: #ff69b4;
+	background: #ff1a75;
 }
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected,
 #import-playlist-container .import-playlist-youtube span {
@@ -355,47 +621,107 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .sidebar .import-playlist span,
 #browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-display span,
 #browser .browser-content #import-playlist-container .playlist-type-select span:hover {
-	color: #ff69b4;
+	color: #ff1a75;
+}
+/*SIDEBARCHANGES*/
+#browser .browser-content .browser-content-main .sidebar {
+    background: rgba(5,5,5,0.9);
+}
+ .browser-content .browser-content-header {
+    background: rgba(5,5,5,0.9);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 12;
+    padding-right: 64px;
+    padding-right: 4rem;
+}
+#browser .browser-content .browser-content-main .sidebar .import-playlist {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    padding: 8px 16px;
+    padding: .5rem 1rem;
+    font-weight: 700;
+    background: rgba(0, 0, 0, 0.04);
+    text-align: center;
+    color: #fff;
+    z-index: 9;
+    border-top: 1px solid #000000;
+}
+#browser .browser-content .browser-content-main .sidebar .create-playlist {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    padding: 8px 16px;
+    padding: .5rem 1rem;
+    font-weight: 700;
+    background: rgba(0, 0, 0, 0.04);
+    text-align: center;
+    color: #fff;
+    z-index: 9;
+    border-top: 1px solid rgba(142, 10, 83, 0.82);
+} 
+#browser .browser-content .browser-content-header .form input {
+    background: rgba(255,26,117,0.2);
 }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item.selected {
-	border: 1px solid #ff69b4;
+	border: 1px solid #ff1a75;
+}
+
+#browser .browser-content .browser-content-header .form {
+    position: relative;
+    padding: 8px 105.6px 8px 8px;
+    padding: .5rem 6.6rem .5rem .5rem;
+    background: rgba(0, 0, 0, 0.2);
+}
+#browser .browser-content .browser-content-header {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 12;
+    padding-right: 64px;
+    padding-right: 4rem;
 }
 
 /* Preview */
 .playerPreview .controlContainer .progressContainer .loaded, .playerPreview .controlContainer .progressContainer .progress,
 .playerPreview .ui-slider-range {
-	background: #ff69b4;
+	background: #ff1a75;
 }
 .playerPreview .ui-slider-handle {
-	background: #ff69b4;
+	background: #ff1a75;
 }
 
 /* Room Info */
 #roomInfoModal .modal-header h3, #roomFormUpdate .mid a, #roomInfoModal .mid a {
-	color: #ff69b4;
+	color: #ff1a75;
 }
 
 /* User */
 span.usernameContainer, .followers-counter,
 #profileMainSection .profileView .header .pictureContainer .updatePictureGif {
-	color: #ff69b4;
+	color: #ff1a75;
 }
 #profileMainSection .profileView .infoProfile .edit-btn, #profileMainSection .profileView .infoProfile .follow-btn {
-	color: #ff69b4;
-	border: 2px solid #ff69b4;
+	color: #ff1a75;
+	border: 2px solid #ff1a75;
 }
 #profileMainSection .profileView .header .pictureContainer .updatePictureGif {
 	width: 101%;
 	height 101%;
-	background: #ff69b4;
+	background: #ff1a75;
 }
 #user_popover .actions, #user_popover .global-actions, #user_popover {
-	background: #ff69b4;
+	background: #000000;
 	opacity: .95;
 }
 #user_popover .global-actions a, #user_popover .usercontent header .dubs, #user_popover .usercontent header h3 {
-	color: #393A39;
+	color: #ff1a75;
 }
 #user_popover .global-actions a {
 	outline: 1px solid #393A39;
@@ -411,8 +737,8 @@ span.usernameContainer, .followers-counter,
 /* sys message color change */
 #chat .chat-container .chat-messages .chat-main li.system-error { text-transform: uppercase; }
 #chat .chat-main li[class*='system']{
-    color: #ff69b4 !important;
+    color: #ff1a75 !important;
     text-align: center;
-    border-top: #ff69b4 1px solid !important;
-    border-bottom: #ff69b4 1px solid !important;
+    border-top: #ff1a75 1px solid !important;
+    border-bottom: #ff1a75 1px solid !important;
 }
