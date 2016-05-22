@@ -606,16 +606,22 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
     background: #000000;
 }
 #addToPlaylistFloatContainer .create-playlist-input input {
-   border-bottom: 3px solid #FF1A75;
-   background: rgb(0, 0, 0);
+    border-bottom: 3px solid #FF1A75;
+    background: rgb(0, 0, 0);
 }
 .icon-add:before {
     content: "\e80d";
     color: #000000;
 }
 #browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form .icon-createplaylist {
-  background: #FF1A75;
-  color: #000000;
+    background: #FF1A75;
+    color: #000000;
+}
+#browser .browser-content .browser-content-main .sidebar .title {  /*revert back if broken*/
+    text-align: center;   
+    color: #FF1A75;
+    font-weight: bold;
+    top: -11px;
 }
 /* Settings */
 #chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover {
