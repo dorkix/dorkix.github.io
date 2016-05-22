@@ -733,7 +733,10 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #roomInfoModal .modal-header h3, #roomFormUpdate .mid a, #roomInfoModal .mid a {
 	color: #ff1a75;
 }
-
+a:active, a:focus, a:hover { /* LINK HOVER COLOR */
+    color: #ff1a75;
+    outline: none;
+}
 /* User */
 span.usernameContainer, .followers-counter,
 #profileMainSection .profileView .header .pictureContainer .updatePictureGif {
