@@ -281,13 +281,7 @@ span.name,
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active {
 	#color: #42A5DC !important;
 }
-#player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong {
-    color: #666F73;
-    font-size: 13.6px;
-    font-size: .85rem;
-    display: block;
-    line-height: 1;
-}
+
 /* Video Buttons (bottom) */
 #main_player .play-song-link {
     background: rgb(0, 0, 0);
