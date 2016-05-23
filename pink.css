@@ -762,8 +762,8 @@ span.usernameContainer, .followers-counter,
 	outline: 1px solid #393A39;
 }
 #user_popover .actions a {
-	color: #3D3C43;
-	outline: 1px solid #3D3C43;
+    color: #FF1A75;
+    outline: 1px solid #FF1A75;
 }
 #user_popover .actions a input {
 	background: rgba(61, 60, 67, 0.69);
