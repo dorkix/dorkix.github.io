@@ -20,7 +20,7 @@
     margin: 0 .75rem 0 0;
     color: #FFFFFF;
 }
-#header-global .header-donate a {
+#header-global .header-donate a { /*DONATION BUTTON*/
     color: #fff;
     text-shadow: 1px 1px 0 rgb(0, 0, 0);
     background-color: #FF1A75;
