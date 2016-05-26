@@ -20,6 +20,13 @@
     margin: 0 .75rem 0 0;
     color: #FFFFFF;
 }
+#header-global .header-donate a {
+    color: #fff;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+    background-color: #FF1A75;
+    border: 2px solid #FF1A75;
+    border-radius: 4px;
+}
 .icon-chevron:before {
     content: "\e800";
     color: #FF1A75;
