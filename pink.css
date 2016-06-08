@@ -365,9 +365,10 @@ span.name,
    top: -5px;
    opacity: 1;
 }
-#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
+/*old chat color*/
+/*#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
 	color: rgb(170, 170, 170);
-}
+}*/
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
     color: #ff1a75 !important;
 }
