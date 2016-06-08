@@ -549,7 +549,7 @@ span.name,
 }
 /** Current DJ **/
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
+#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:before {
    content: "DJ ";
    color: #c7f3ff;
 }
