@@ -569,7 +569,7 @@ span.name,
 }
 /** Current DJ **/
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ .username:before {
-    content: "[Current DJ] ";
+    content: "[DJ]";
     color: #04d2f5;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username,
