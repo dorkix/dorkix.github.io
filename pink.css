@@ -414,16 +414,16 @@ span.name,
     color: #cc0066;	
 }
 #chat .chat-container .chat-messages .chat-main li.manager .username {
-    color: #ff4da6;
+    color: ##d88bd5;
 }
 #chat .chat-container .chat-messages .chat-main li.manager .user-role {
-    color: #ff4da6;	
+    color: ##d88bd5;	
 }
 #main_avatar_room #main-user-list-room #avatar-list li.manager .username {
     color: #ffffff;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.manager .user-role {
-    color: #ff4da6;	
+    color: ##d88bd5;	
 }
 #chat .chat-container .chat-messages .chat-main li.mod .username {
     color: #ff6666;
@@ -438,16 +438,16 @@ span.name,
     color: #ff6666;	
 }
 #chat .chat-container .chat-messages .chat-main li.vip .username {
-    color: #00b6ff;
+    color: #8c66ff;
 }
 #chat .chat-container .chat-messages .chat-main li.vip .user-role {
-    color: #00b6ff;	
+    color: #8c66ff;	
 }
 #main_avatar_room #main-user-list-room #avatar-list li.vip .username {
     color: #ffffff;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
-    color: #00b6ff;
+    color: #8c66ff;
 }
 #chat .chat-container .chat-messages .chat-main li.resident-dj .username {
     color: #4ddbff;
