@@ -410,6 +410,7 @@ span.name,
 #main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after {
     content: " -" !important;
 }
+/*BEFORE THE RANK*/
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
     color: #ff1a75 !important;
 }
