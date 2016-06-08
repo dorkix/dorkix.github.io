@@ -369,6 +369,50 @@ span.name,
 /*#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
 	color: rgb(170, 170, 170);
 }*/
+/*IN CHAT COLOR & USER LIST COLOR ( SHOULD SHARE SAME COLOR SCHEME*/
+#chat .chat-container .chat-messages .chat-main li.owner .username {
+    color: #cd0051;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.owner .user-role{
+    color: #cd0051;	
+}
+#chat .chat-container .chat-messages .chat-main li.creator .username {
+    color: #cd0051;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.creator .user-role {
+    color: #cd0051;	
+}
+#chat .chat-container .chat-messages .chat-main li.co-owner .username {
+    color: #e6005b;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role {
+    color: #e6005b;	
+}
+#chat .chat-container .chat-messages .chat-main li.manager .username {
+    color: #ff0066;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.manager .user-role {
+    color: #ff0066;	
+}
+#chat .chat-container .chat-messages .chat-main li.mod .username {
+    color: #ff1a75;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.mod .user-role {
+    color: #ff1a75;	
+}
+#chat .chat-container .chat-messages .chat-main li.vip .username {
+    color: #ff3484;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
+    color: #ff3484;
+}
+#chat .chat-container .chat-messages .chat-main li.resident-dj .username {
+    color: #ff67a3;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role {
+    color: #ff67a3;	
+}
+/*IN CHAT COLOR*/
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
     color: #ff1a75 !important;
 }
