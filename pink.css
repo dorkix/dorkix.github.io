@@ -414,7 +414,7 @@ span.name,
     content: " -" !important;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
-    content: "" !important;
+    content: " " !important;
 }
 /*BEFORE THE RANK*/
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
