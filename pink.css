@@ -524,8 +524,7 @@ span.name,
    color: #AD1351 !important; 
 }
 #main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after {
-    color: #b30047 !important; 
-    content: " -" !important;
+   /* content: " -" !important;*/
 }
 #main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after {
    color: #ff1a75 !important;
