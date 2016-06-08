@@ -422,6 +422,11 @@ span.name,
 #chat .chat-container .chat-messages .chat-main li.chat-system-loading, #chat .chat-container .chat-messages .chat-main li.chat-welcome-message, #chat .chat-container .chat-messages .chat-main li.system, #chat .chat-container .chat-messages .chat-main li.system-error {
 	font-size: 14px;
 }
+/*USERNAME HANDLE BOT*/
+#chat .chat-container .chat-messages .chat-main li .activity-row .text .username-handle {
+    font-weight: 700;
+    color: #ff1a75;
+}
 /*TODO
 #chat .chat-main .isOwner .username,
 #chat .chat-main .isOwner .username:hover,
