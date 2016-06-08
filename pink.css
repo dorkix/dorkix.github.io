@@ -11,11 +11,17 @@
 #header-global .header-right-navigation .user-info span {
 	color: #ff1a75;
 }
+#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
+    /* content: "- DJ" !important; */
+}
 #main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after {
-    content: " -" !important;
+    /* content: "- Creator" !important; */
 }
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
-    content: " -" !important;
+    /* content: "- DJ" !important; */
+}
+#main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after {
+    /* content: "- Creator" !important; */
 }
 /* Top Header */
 #header-global .header-left-navigation a {
