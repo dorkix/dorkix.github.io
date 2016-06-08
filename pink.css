@@ -372,16 +372,16 @@ span.name,
 /*IN CHAT TITLE*/
 #chat .chat-container .chat-messages .chat-main li .activity-row .text a.username .user-role {
     font-size: 11px;
-    opacity: 1;
+   /* opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
+    filter: alpha(opacity=0); */
 }
 /*IN CHAT COLOR & USER LIST COLOR ( SHOULD SHARE SAME COLOR SCHEME*/
 #chat .chat-container .chat-messages .chat-main li.owner .username {
-    color: #ffffff;
+    color: #9b58de;
 }
 #chat .chat-container .chat-messages .chat-main li.owner .user-role {
-    color: #cd0051;	
+    color: #9b58de;	
 }
 #main_avatar_room #main-user-list-room #avatar-list li.owner .user-role {
     color: #cd0051;	
@@ -390,76 +390,76 @@ span.name,
     color: #ffffff;	
 }
 #chat .chat-container .chat-messages .chat-main li.creator .username {
-    color: #ffffff;
+    color: #9b58de;
 }
 #chat .chat-container .chat-messages .chat-main li.creator .user-role {
-    color: #cd0051;
+    color: #9b58de;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.creator .user-role {
-    color: #cd0051;	
+    color: #9b58de;	
 }
 #main_avatar_room #main-user-list-room #avatar-list li.creator .username {
     color: #ffffff;
 }
 #chat .chat-container .chat-messages .chat-main li.co-owner .username {
-    color: #ffffff;
+    color: #cc0066;
 }
 #chat .chat-container .chat-messages .chat-main li.co-owner .user-role {
-    color: #e6005b;	
+    color: #cc0066;	
 }
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .username {
     color: #ffffff;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role {
-    color: #e6005b;	
+    color: #cc0066;	
 }
 #chat .chat-container .chat-messages .chat-main li.manager .username {
-    color: #ffffff;
+    color: #ff4da6;
 }
 #chat .chat-container .chat-messages .chat-main li.manager .user-role {
-    color: #ff0066;	
+    color: #ff4da6;	
 }
 #main_avatar_room #main-user-list-room #avatar-list li.manager .username {
     color: #ffffff;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.manager .user-role {
-    color: #ff0066;	
+    color: #ff4da6;	
 }
 #chat .chat-container .chat-messages .chat-main li.mod .username {
-    color: #ffffff;
+    color: #ff9999;
 }
 #chat .chat-container .chat-messages .chat-main li.mod .user-role {
-    color: #ff1a75;	
+    color: #ff9999;	
 }
 #main_avatar_room #main-user-list-room #avatar-list li.mod .username {
     color: #ffffff;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.mod .user-role {
-    color: #ff1a75;	
+    color: #ff9999;	
 }
 #chat .chat-container .chat-messages .chat-main li.vip .username {
-    color: #ffffff;
+    color: #00b6ff;
 }
 #chat .chat-container .chat-messages .chat-main li.vip .user-role {
-    color: #ff3484;	
+    color: #00b6ff;	
 }
 #main_avatar_room #main-user-list-room #avatar-list li.vip .username {
     color: #ffffff;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
-    color: #ff3484;
+    color: #00b6ff;
 }
 #chat .chat-container .chat-messages .chat-main li.resident-dj .username {
-    color: #ffffff;
+    color: #4ddbff;
 }
 #chat .chat-container .chat-messages .chat-main li.resident-dj .user-role {
-    color: #ff67a3;	
+    color: #4ddbff;	
 }
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username {
     color: #ffffff;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role {
-    color: #ff67a3;	
+    color: #4ddbff;	
 }
 /*IN CHAT COLOR*/
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
