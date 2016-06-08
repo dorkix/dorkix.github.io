@@ -387,6 +387,13 @@ span.name,
 #chat .chat-container .chat-messages .chat-main li.manager .user-role {
 	
 } 
+#main_avatar_room #main-user-list-room #avatar-list li.vip .user-role
+#main_avatar_room #main-user-list-room #avatar-list li.manager .user-role
+#main_avatar_room #main-user-list-room #avatar-list li.owner .user-role
+#main_avatar_room #main-user-list-room #avatar-list li.creator .user-role
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role
+#main_avatar_room #main-user-list-room #avatar-list li.mod .user-role
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role
 */
 /*BEFORE THE RANK*/
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
