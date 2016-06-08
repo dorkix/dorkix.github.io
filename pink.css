@@ -568,11 +568,14 @@ span.name,
    content: " - ";
 }
 /** Current DJ **/
+#main_avatar_room #main-user-list-room #avatar-list li.currentDJ .username:before {
+    content: "[Current DJ] ";
+    color: #04d2f5;
+}
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username,
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
-	color: #ff6600;
+	color: #ffffff;
 }
-
 /** Users (REGULAR) **/
 #main_avatar_room #main-user-list-room #avatar-list li p {
     color: #878c8e;
