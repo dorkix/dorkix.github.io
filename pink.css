@@ -426,16 +426,16 @@ span.name,
     color: #ff4da6;	
 }
 #chat .chat-container .chat-messages .chat-main li.mod .username {
-    color: #ff9999;
+    color: #ff6666;
 }
 #chat .chat-container .chat-messages .chat-main li.mod .user-role {
-    color: #ff9999;	
+    color: #ff6666;	
 }
 #main_avatar_room #main-user-list-room #avatar-list li.mod .username {
     color: #ffffff;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.mod .user-role {
-    color: #ff9999;	
+    color: #ff6666;	
 }
 #chat .chat-container .chat-messages .chat-main li.vip .username {
     color: #00b6ff;
