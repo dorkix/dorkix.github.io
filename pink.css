@@ -11,18 +11,6 @@
 #header-global .header-right-navigation .user-info span {
 	color: #ff1a75;
 }
-#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
-    /* content: "- DJ" !important; */
-}
-#main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after {
-    /* content: "- Creator" !important; */
-}
-#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
-    /* content: "- DJ" !important; */
-}
-#main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after {
-    /* content: "- Creator" !important; */
-}
 /* Top Header */
 #header-global .header-left-navigation a {
     text-transform: uppercase;
@@ -409,30 +397,6 @@ span.name,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role
 */
 /*BEFORE THE RANK*/
-#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
-    content: " -" !important;
-}
-#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username:after {
-    content: " -" !important;
-}
-#main_avatar_room #main-user-list-room #avatar-list li.vip p.username:after {
-    content: " -" !important;
-}
-#main_avatar_room #main-user-list-room #avatar-list li.mod p.username:after {
-    content: " -" !important;
-}
-#main_avatar_room #main-user-list-room #avatar-list li.owner p.username:after {
-    content: " -" !important;
-}
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
-    content: " -" !important;
-}
-#main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after {
-    content: " -" !important;
-}
-#main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after {
-    content: " -" !important;
-}
 /*BEFORE THE RANK*/
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
     color: #ff1a75 !important;
@@ -514,30 +478,7 @@ span.name,
 
 /* User List */
 
-/** Admin **/
-#main_avatar_room #main-user-list-room #avatar-list li.admin p.username,
-#main_avatar_room #main-user-list-room #avatar-list li.admin p.username:after {
-	color: #42A5DC !important;
-}
 
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
-   color: #AD1351 !important; 
-}
-#main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after {
-   /* content: " -" !important;*/
-}
-#main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after {
-   color: #ff1a75 !important;
-}
-#main_avatar_room #main-user-list-room #avatar-list li.mod p.username:after {
-   color: #ff4d94 !important; 
-}
-#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username:after {
-   color: #ffb3d1 !important; 
-}
-#main_avatar_room #main-user-list-room #avatar-list li.vip p.username:after {
-   color: #ff66a3 !important; 
-}
 /** Current DJ **/
 
 /** Users **/
