@@ -371,8 +371,9 @@ span.name,
 }*/
 /*IN CHAT TITLE*/
 #chat .chat-container .chat-messages .chat-main li .activity-row .text a.username .user-role {
-   opacity: 0;
-   margin-left: 0.45rem;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
 }
 /*IN CHAT COLOR & USER LIST COLOR ( SHOULD SHARE SAME COLOR SCHEME*/
 #chat .chat-container .chat-messages .chat-main li.owner .username {
