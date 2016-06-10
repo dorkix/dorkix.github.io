@@ -473,7 +473,14 @@ span.name,
 #chat .chat-container .chat-messages .chat-main li.chat-system-loading, #chat .chat-container .chat-messages .chat-main li.chat-welcome-message, #chat .chat-container .chat-messages .chat-main li.system, #chat .chat-container .chat-messages .chat-main li.system-error {
 	font-size: 14px;
 }
-
+/*filter butoon color*/
+#main_avatar_room .avatar_tools .filter-toggle {
+    color: #ffffff;
+    border: 1px solid #848484;
+}
+#main_avatar_room .avatar_tools .filter-toggle:hover {
+    color: #ff1a75;
+}	
 #chat .chat-main .isOwner .username,
 #chat .chat-main .isOwner .username:hover,
 #chat .chat-main .isOwner .username:visited{
