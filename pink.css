@@ -329,6 +329,11 @@ span.name,
 .ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y { /*CHAT SCROLLBAR*/
     background-color: #FF1A75;
 }
+/*LINK COLOR HOVER*/
+a:not(.username):hover {
+    color: #ff1a75;
+    outline: none;
+}
 #chat .pusher-chat-widget-input {
    border-top: 1px solid #FF1A75;
 }
