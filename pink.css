@@ -438,16 +438,16 @@ span.name,
     color: #ff6666;	
 }
 #chat .chat-container .chat-messages .chat-main li.vip .username {
-    color: #8c66ff;
+    color: #0059b7;
 }
 #chat .chat-container .chat-messages .chat-main li.vip .user-role {
-    color: #8c66ff;	
+    color: #0059b7;	
 }
 #main_avatar_room #main-user-list-room #avatar-list li.vip .username {
     color: #ffffff;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
-    color: #8c66ff;
+    color: #0059b7;
 }
 #chat .chat-container .chat-messages .chat-main li.resident-dj .username {
     color: #4ddbff;
