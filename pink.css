@@ -586,9 +586,14 @@ a:not(.username):hover {
     color: #04d2f5;
 }
 */
+#main_avatar_room #main-user-list-room #avatar-list li.currentDJ .dubs:before {
+    content: "current DJ ";
+    color: #ff1a75;
+}
+/**/
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username,
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
-	color: #ffffff;
+	color: #c7f3ff;
 }
 /** Users (REGULAR) **/
 #main_avatar_room #main-user-list-room #avatar-list li p {
