@@ -581,10 +581,11 @@ a:not(.username):hover {
    content: " - ";
 }
 /** Current DJ **/
-#main_avatar_room #main-user-list-room #avatar-list li.currentDJ .username:before {
+/*#main_avatar_room #main-user-list-room #avatar-list li.currentDJ .username:before {
     content: "[DJ]";
     color: #04d2f5;
 }
+*/
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username,
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
 	color: #ffffff;
