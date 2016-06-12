@@ -593,11 +593,15 @@ a:not(.username):hover {
 /**/
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username,
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
-	color: #c7f3ff;
+	color: #ffffff;
 }
 /** Users (REGULAR) **/
 #main_avatar_room #main-user-list-room #avatar-list li p {
     color: #878c8e;
+}
+#main_avatar_room #main-user-list-room #avatar-list li p.username:after {
+    content:" > ";
+    color: #ff1a75;
 }
 #chat .chat-container .chat-messages .chat-main li a.username {
     color: #878c8e;
