@@ -229,7 +229,6 @@ a, a:active, a:focus, a:hover, #header-global .header-left-navigation a.room-act
 }
 
 /* Add to Playlist */
-/*
 #addToPlaylistFloatContainer .playlist-list-action li:hover {
 	color: #ff1a75;
 }
@@ -629,7 +628,6 @@ ul.avatar-list li.user-ciscog p.dubs:before {
 	color: #ff3657 !important;
 }
 /*PLAYLIST BACKGROUND*/
-/*
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info {
     background: #E20C61;
 }
@@ -730,7 +728,6 @@ ul.avatar-list li.user-ciscog p.dubs:before {
 	color: #ff1a75;
 }
 /* Queue */
-/*
 #browser .browser-content .browser-content-header .close-browser,
 #browser .browser-content .browser-content-main .nano .loading,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success,
@@ -802,12 +799,11 @@ ul.avatar-list li.user-ciscog p.dubs:before {
 #browser .browser-content .browser-content-header .form input {
     background: rgba(255,26,117,0.2);
 }
-/*
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item.selected {
 	border: 1px solid #ff1a75;
 }
-*/
+
 #browser .browser-content .browser-content-header .form {
     position: relative;
     padding: 8px 105.6px 8px 8px;
