@@ -769,20 +769,13 @@ ul.avatar-list li.user-ciscog p.dubs:before {
     padding-right: 64px;
     padding-right: 4rem;
 }
+*/
 #browser .browser-content .browser-content-main .sidebar .import-playlist {
-    position: absolute;
-    bottom: 40px;
-    left: 0;
-    width: 100%;
-    padding: 8px 16px;
-    padding: .5rem 1rem;
-    font-weight: 700;
-    background: rgba(0, 0, 0, 0.04);
-    text-align: center;
-    color: #fff;
-    z-index: 9;
-    border-top: 1px solid #000000;
+    background: #000000;
+    border-top: 1px solid #ff1a75;
+    border-bottom: 1px solid #ff1a75;
 }
+/*
 #browser .browser-content .browser-content-main .sidebar .create-playlist {
     position: absolute;
     bottom: 0px;
