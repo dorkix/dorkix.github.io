@@ -775,21 +775,12 @@ ul.avatar-list li.user-ciscog p.dubs:before {
     border-top: 1px solid #ff1a75;
     border-bottom: 1px solid #ff1a75;
 }
-/*
 #browser .browser-content .browser-content-main .sidebar .create-playlist {
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-    width: 100%;
-    padding: 8px 16px;
-    padding: .5rem 1rem;
-    font-weight: 700;
-    background: rgba(0, 0, 0, 0.04);
-    text-align: center;
-    color: #fff;
-    z-index: 9;
-    border-top: 1px solid rgba(142, 10, 83, 0.82);
-} 
+    background: #000000;
+    border-top: 1px solid #ff1a75;
+    border-bottom: 1px solid #ff1a75;
+}
+/*
 #browser .browser-content .browser-content-header .form input {
     background: rgba(255,26,117,0.2);
 }
