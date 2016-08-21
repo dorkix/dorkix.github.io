@@ -802,11 +802,12 @@ ul.avatar-list li.user-ciscog p.dubs:before {
 #browser .browser-content .browser-content-header .form input {
     background: rgba(255,26,117,0.2);
 }
+/*
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item.selected {
 	border: 1px solid #ff1a75;
 }
-
+*/
 #browser .browser-content .browser-content-header .form {
     position: relative;
     padding: 8px 105.6px 8px 8px;
