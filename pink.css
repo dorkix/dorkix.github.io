@@ -229,6 +229,7 @@ a, a:active, a:focus, a:hover, #header-global .header-left-navigation a.room-act
 }
 
 /* Add to Playlist */
+/*
 #addToPlaylistFloatContainer .playlist-list-action li:hover {
 	color: #ff1a75;
 }
@@ -628,6 +629,7 @@ ul.avatar-list li.user-ciscog p.dubs:before {
 	color: #ff3657 !important;
 }
 /*PLAYLIST BACKGROUND*/
+/*
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info {
     background: #E20C61;
 }
