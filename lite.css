@@ -32,3 +32,7 @@
 #private-messages .message-details ul.message-list li.message-item .message-time {
   color: #a9a9a9;
 }
+
+#private-messages .loading {
+  background: #000; 
+}
