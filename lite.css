@@ -1,1 +1,34 @@
 /*MINOR CHANGES TO SOME PARTS OF DUBTRACK(MOSTLY GRAY TO BLACK/TRANSPARENCY CHANGES*/
+#private-messages .main-message-list {
+  backgroun  rgba(0, 0, 0, 0.98);
+}
+
+#private-messages .main-message-list ul.message-list li.message-item .message-content p {
+  color: #ffffff;
+}
+
+#private-messages .message-details ul.message-list li.message-item .message-content p {
+ color: #c9c9ca;
+}
+
+#private-messages .message-details ul.message-list li.message-item {
+ border-bottom: 1px solid #bfbfbf;
+}
+
+#private-messages .main-message-list .message-header {
+ background: rgba(0, 0, 0, 0.98);
+ border-bottom: 1px solid #fff;
+}
+
+#private-messages .main-message-list input {
+  border: 1px solid #736e6e;
+  background: #232323;
+}
+
+#private-messages .main-message-list ul.message-list li.message-item .message-time {
+  color: #a9a9a9;
+}
+
+#private-messages .message-details ul.message-list li.message-item .message-time {
+  color: #a9a9a9;
+}
