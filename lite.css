@@ -32,3 +32,13 @@
 #private-messages .loading {
   background: #000  !important; 
 }
+#private-messages .main-message-list .message-header, #private-messages .message-details .message-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: .5em 1em;
+    border-bottom: 1px solid #f00;
+    background: #ff0000;
+    z-index: 15;
+}
