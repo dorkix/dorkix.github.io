@@ -1,4 +1,5 @@
 /*MINOR CHANGES TO SOME PARTS OF DUBTRACK(MOSTLY GRAY TO BLACK/TRANSPARENCY CHANGES*/
+/*CHAT*/
 #private-messages .main-message-list {
   background: rgba(0, 0, 0, 0.98)  !important;
 }
@@ -31,4 +32,31 @@
 }
 #private-messages .loading {
   background: #000  !important; 
+}
+/*CHAT TRANSPARENCY*/
+#chat .chat-container .chat-messages {
+  background: rgba(0, 0, 0, 0.65);
+}
+#chat .chat_tools {
+  background: rgba(0, 0, 0, 0.65);
+}
+#main_avatar_room #main-user-list-room {
+  background: rgba(0, 0, 0, 0.65);
+}
+#chat .chat-options .chat-option-buttons {
+  background: rgba(0, 0, 0, 0.65);
+}
+#main-room .right_section {
+  background: rgba(0, 0, 0, 0.65);
+}
+#chat .chat-options .chat-option-header {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.65);
+}
+/*BOTTOM*/
+#player-controller .left ul li.infoContainer {
+  background: rgba(0, 0, 0, 0.72);
+}
+#player-controller .right {
+  background: rgba(0, 0, 0, 0.72);
 }
