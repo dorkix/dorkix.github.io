@@ -34,27 +34,14 @@
   background: #000;
 }
 /*CHAT TRANSPARENCY*/
-#chat .chat-container .chat-messages {
-  /*background: rgba(0, 0, 0, 0.65);*/
-}
-#chat .chat_tools {
-  /*background: rgba(0, 0, 0, 0.65);*/
-}
-#main_avatar_room #main-user-list-room {
- /* background: rgba(0, 0, 0, 0.65);*/
-}
-#chat .chat-options .chat-option-buttons {
- /* background: rgba(0, 0, 0, 0.65);*/
-}
-#main-room .right_section {
-/*  background: rgba(0, 0, 0, 0.65);*/
-}
 #chat .chat-options .chat-option-header {
   color: #ffffff;
-  /*background: rgba(0, 0, 0, 0.65);*/
 }
 #main_avatar_room {
-  background: rgba(0, 0, 0, 0.68);
+  background: rgba(0, 0, 0, 0.65);
+}
+#chat {
+  background: rgba(0, 0, 0, 0.65);
 }
 /*TOP*/
 #header-global {
