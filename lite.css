@@ -1,6 +1,6 @@
 /*MINOR CHANGES TO SOME PARTS OF DUBTRACK(MOSTLY GRAY TO BLACK/TRANSPARENCY CHANGES*/
 #private-messages .main-message-list {
-  background  rgba(0, 0, 0, 0.98)  !important;
+  background: rgba(0, 0, 0, 0.98)  !important;
 }
 #private-messages .main-message-list ul.message-list li.message-item .message-content p {
   color: #ffffff  !important;
