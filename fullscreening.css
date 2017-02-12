@@ -27,6 +27,7 @@ Imports:
 @import url("https://dorkix.github.io/roomformbetter.css"); /* Modified Room Form */
 @import url("https://dorkix.github.io/fixesnetux.css"); /* Netux Fixes */
 /*@import url("https://dorkix.github.io/adsheader.css"); /* Header advertisements */
+@import url("https://dorkix.github.io/testing2.css"); 
 
 /* Main function */
 #main-room .main-room-wrapper { min-height: initial; }
@@ -94,7 +95,7 @@ Imports:
 #main_player .player_header span.skip-el,
 #main_player .player_header span.skip-el:hover {
     color: #f00;
-    width: 25%;
+    width: 58%;
 }
 #main_player .player_sharing {
     position: absolute;
