@@ -93,7 +93,7 @@ Imports:
 #main_player .player_header span.skip-el,
 #main_player .player_header span.skip-el:hover {
     color: #f00;
-    width: 25%;
+    width: 50%;
 }
 #main_player .player_sharing {
     position: absolute;
