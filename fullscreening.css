@@ -27,7 +27,7 @@ Imports:
 @import url("https://dorkix.github.io/roomformbetter.css"); /* Modified Room Form */
 @import url("https://dorkix.github.io/fixesnetux.css"); /* Netux Fixes */
 /*@import url("https://dorkix.github.io/adsheader.css"); /* Header advertisements */
-/*@import url("https://dorkix.github.io/testing2.css"); */
+@import url("https://dorkix.github.io/testing2.css");
 
 /* Main function */
 #main-room .main-room-wrapper { min-height: initial; }
