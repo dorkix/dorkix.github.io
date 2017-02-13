@@ -158,3 +158,9 @@ Imports:
     height: auto;
 }
 */
+
+
+/* Soundcloud icon */
+.icon-soundcloud:hover {
+    color: #ffa500!important;
+}
