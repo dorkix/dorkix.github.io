@@ -20,13 +20,12 @@ Imports:
 @import url("https://github.netux.ml/css/chatright.css"); /* Chat completly to the right */
 @import url("https://github.netux.ml/css/queuetofooter.css"); /* Queue buttons on right footer */
 @import url("https://github.netux.ml/css/animations.css"); /* Pack of animations */
-@import url("https://dorkix.github.io/plugthm.css"); /* Better recognizable Room BOTs */
 @import url("https://github.netux.ml/css/browserbetter.css"); /* Modified Browser */
 /*@import url("https://dorkix.github.io/lobbybetter.css");*/ /* Modified Lobby */
 @import url("https://github.netux.ml/css/roomformbetter.css"); /* Modified Room Form */
 @import url("https://github.netux.ml/css/fixesnetux.css"); /* Netux Fixes */
 /*@import url("https://dorkix.github.io/adsheader.css"); /* Header advertisements */
-
+@import url("https://dorkix.github.io/plugthm.css"); /* Better recognizable Room BOTs */
 /* Main function */
 #main-room .main-room-wrapper { min-height: initial; }
 #main-room .left_section {
