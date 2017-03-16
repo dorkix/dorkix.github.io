@@ -87,7 +87,7 @@ Imports:
 #main_player .player_header span.active { border-bottom: 2px solid #fff; }
 #main_player .player_header span.edit-room i {
     position: initial;
-    line-height: .4;
+    line-height: 1.2;
 }
 #main_player .player_header span.skip-el,
 #main_player .player_header span.skip-el:hover {
