@@ -107,7 +107,7 @@ span.name,
 }
 
 /* Video Buttons (top) */
-#main_player .player_header span.active {
+/*#main_player .player_header span.active {
 	background: #AA74FE;
 	color: #000000;
 	font-weight: 600;
@@ -126,7 +126,7 @@ span.name,
 }
 
 /* Video Buttons (bottom) */
-#main_player .play-song-link {
+/*#main_player .play-song-link {
 	background: rgba(8,8,8,0.78);
 	border-radius: 0.4rem;
 }
