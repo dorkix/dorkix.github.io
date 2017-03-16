@@ -49,10 +49,26 @@ a, a:active, a:focus, a:hover,
 }
 
 /* DubX Menu */
+.for_content {
+	background: #1A1A1A !important;
+}
+.for_content_off {
+	color: #DDDDDD !important;
+}
+.for_content_version, .for_content_p {
+	color: #AA74FE !important;
+}
 
+/** DubX Feature Menus **/
+.onErr .container .control .confirm {
+	background: #AA74FE !important;
+}
+.for_content_c {
+	#color: #AA74FE !important;
+}
 
 /* Bottom Header */
-/*#player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
+#player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
 	background: #AA74FE;
 }
 .icon-play:before, .icon-playlist:before, .icon-history:before, .icon-heart:before {
@@ -73,9 +89,8 @@ a, a:active, a:focus, a:hover,
 #player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, #player-controller .left, #player-controller .right {
 	background: #1A1A1A;
 }
-*/
+
 /* Add to Playlist */
-/*
 #addToPlaylistFloatContainer .playlist-list-action li:hover {
 	color: #AA74FE;
 }
@@ -98,7 +113,7 @@ span.name,
 }
 
 /* Video Player */
-/*#main_player {
+#main_player {
 	background: rgba(8,8,8,0.78);
 	border-radius: 0.4rem;
 }
@@ -107,7 +122,7 @@ span.name,
 }
 
 /* Video Buttons (top) */
-/*#main_player .player_header span.active {
+#main_player .player_header span.active {
 	background: #AA74FE;
 	color: #000000;
 	font-weight: 600;
@@ -126,7 +141,7 @@ span.name,
 }
 
 /* Video Buttons (bottom) */
-/*#main_player .play-song-link {
+#main_player .play-song-link {
 	background: rgba(8,8,8,0.78);
 	border-radius: 0.4rem;
 }
@@ -290,7 +305,7 @@ ul.avatar-list .user-mbsurfer:after,
 }
 
 /** Upvote/Downvote **/
-/*ul.avatar-list li.updub {
+ul.avatar-list li.updub {
 	background: rgba(144,173,47,0.2);
 	padding-left: 5px;
 	padding-right: 5px;
@@ -340,7 +355,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 
 /* Queue */
-/*#browser .browser-content .browser-content-header .close-browser,
+#browser .browser-content .browser-content-header .close-browser,
 #browser .browser-content .browser-content-main .nano .loading,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success,
 #browser .browser-content #import-playlist-container .close-import-playlist {
