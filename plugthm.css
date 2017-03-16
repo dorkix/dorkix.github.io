@@ -49,23 +49,7 @@ a, a:active, a:focus, a:hover,
 }
 
 /* DubX Menu */
-.for_content {
-	background: #1A1A1A !important;
-}
-.for_content_off {
-	color: #DDDDDD !important;
-}
-.for_content_version, .for_content_p {
-	color: #AA74FE !important;
-}
 
-/** DubX Feature Menus **/
-.onErr .container .control .confirm {
-	background: #AA74FE !important;
-}
-.for_content_c {
-	#color: #AA74FE !important;
-}
 
 /* Bottom Header */
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
