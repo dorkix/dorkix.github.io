@@ -159,8 +159,15 @@ Imports:
 }
 */
 
+/*tests*/
 
 /* Soundcloud icon */
 .icon-soundcloud:hover {
     color: #ffa500!important;
+}
+
+@media screen and (min-width: 72em)
+#player-controller {
+    overflow: hidden;
+    background: rgb(0, 0, 0);
 }
