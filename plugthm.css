@@ -52,7 +52,7 @@ a, a:active, a:focus, a:hover,
 
 
 /* Bottom Header */
-#player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
+/*#player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
 	background: #AA74FE;
 }
 .icon-play:before, .icon-playlist:before, .icon-history:before, .icon-heart:before {
@@ -73,8 +73,9 @@ a, a:active, a:focus, a:hover,
 #player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, #player-controller .left, #player-controller .right {
 	background: #1A1A1A;
 }
-
+*/
 /* Add to Playlist */
+/*
 #addToPlaylistFloatContainer .playlist-list-action li:hover {
 	color: #AA74FE;
 }
@@ -97,7 +98,7 @@ span.name,
 }
 
 /* Video Player */
-#main_player {
+/*#main_player {
 	background: rgba(8,8,8,0.78);
 	border-radius: 0.4rem;
 }
