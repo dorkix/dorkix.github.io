@@ -247,3 +247,35 @@ ul.avatar-list li.downdub {
 #roomInfoModal .modal-header h3, #roomFormUpdate .mid a, #roomInfoModal .mid a {
 	color: #AA74FE;
 }
+
+/* User */
+span.usernameContainer, .followers-counter,
+#profileMainSection .profileView .header .pictureContainer .updatePictureGif {
+	color: #AA74FE;
+}
+#profileMainSection .profileView .infoProfile .edit-btn, #profileMainSection .profileView .infoProfile .follow-btn {
+	color: #AA74FE;
+	border: 2px solid #AA74FE;
+}
+#profileMainSection .profileView .header .pictureContainer .updatePictureGif {
+	width: 101%;
+	height 101%;
+	background: #AA74FE;
+}
+#user_popover .actions, #user_popover .global-actions, #user_popover {
+	background: #AA74FE;
+	opacity: .95;
+}
+#user_popover .global-actions a, #user_popover .usercontent header .dubs, #user_popover .usercontent header h3 {
+	color: #393A39;
+}
+#user_popover .global-actions a {
+	outline: 1px solid #393A39;
+}
+#user_popover .actions a {
+	color: #3D3C43;
+	outline: 1px solid #3D3C43;
+}
+#user_popover .actions a input {
+	background: rgba(61, 60, 67, 0.69);
+}
