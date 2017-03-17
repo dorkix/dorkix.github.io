@@ -146,3 +146,51 @@ span.name,
 #chat .chat-main .isVip .username:visited{
     color: #AA74FE !important;
 }
+
+
+/* User List */
+
+/** Admin **/
+#main_avatar_room #main-user-list-room #avatar-list li.admin p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.admin p.username:after {
+	color: #42A5DC !important;
+}
+
+/** Moderators **/
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.creator p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.manager p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.mod p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.vip p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.mod p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.vip p.username:after {
+	color: #AA74FE;
+}
+
+/** Current DJ **/
+#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
+	color: #0FF;
+}
+
+/** Users **/
+#main_avatar_room #main-user-list-room #avatar-list li p {
+	color: #AAAAAA;
+}
+
+/** Upvote/Downvote **/
+ul.avatar-list li.updub {
+	background: rgba(144,173,47,0.2);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+ul.avatar-list li.downdub {
+	background: rgba(196,46,59,0.2);
+	padding-left: 5px;
+	padding-right: 5px;
+}
