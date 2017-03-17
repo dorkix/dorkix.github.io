@@ -64,3 +64,11 @@ a, a:active, a:focus, a:hover,
 #player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, #player-controller .left, #player-controller .right {
 	background: #1A1A1A;
 }
+
+/* Add to Playlist */
+#addToPlaylistFloatContainer .playlist-list-action li:hover {
+	color: #AA74FE;
+}
+#addToPlaylistFloatContainer .create-playlist-input .icon-add {
+	background: #AA74FE;
+}
