@@ -1,5 +1,5 @@
 
-* Main Menu (left) */
+/* Main Menu (left) */
 #main-menu-left a.room-active-link {
 	color: #AA74FE;
     box-shadow: inset 4px 0px 0px 0px #AA74FE
@@ -23,4 +23,44 @@ a, a:active, a:focus, a:hover,
 }
 #header-global .header-right-navigation .user-messages .message-counter {
 	background: #AA74FE;
+}
+
+* Private Messages */
+#private-messages .main-message-list ul.message-list li.message-item .message-content h3, #private-messages .message-details ul.message-list li.message-item .message-content h3,
+#private-messages .main-message-list .message-header a, #private-messages .message-details .message-header a,
+#private-messages .message-details ul.message-list li.message-item .message-content h3,
+#private-messages .private-message-details-info, #private-messages .private-message-info {
+	color: #AA74FE;
+}
+#private-messages .loading {
+	background: #AA74FE;
+}
+#private-messages .main-message-list ul.message-list li.message-item.new-message:before, #private-messages .message-details ul.message-list li.message-item.new-message:before {
+	background: #AA74FE;
+}
+#private-messages .main-message-list, #private-messages .message-details {
+	background: #1A1A1A;
+}
+
+/* Bottom Header */
+#player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
+	background: #AA74FE;
+}
+.icon-play:before, .icon-playlist:before, .icon-history:before, .icon-heart:before {
+	color: #AA74FE;
+}
+#player-controller .right ul li .dubup.voted {
+	background: #90AD2F;
+}
+#player-controller .right ul li .dubup .icon-arrow-up, #player-controller .right ul li .dubup .dub-counter {
+	color: #90AD2F;
+}
+#player-controller .right ul li .dubdown.voted {
+	background: #C42E3B;
+}
+#player-controller .right ul li .dubdown .icon-arrow-down, #player-controller .right ul li .dubdown .dub-counter {
+	color: #C42E3B;
+}
+#player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, #player-controller .left, #player-controller .right {
+	background: #1A1A1A;
 }
