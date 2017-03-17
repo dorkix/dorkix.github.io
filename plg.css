@@ -87,3 +87,62 @@ span.name,
 	background: #AA74FE;
 	opacity: .90;
 }
+
+
+/* Chat */
+#main-room .right_section, #profileMainSection {
+	background: rgba(8,8,8,0.78);
+	border-radius: 0.4rem;
+}
+#chat .chat_tools span:hover {
+	color: #AA74FE;
+}
+#chat .chat_tools span:after {
+	border-color: #AA74FE;
+}
+#chat .pusher-chat-widget-input #new-messages-counter {
+	background: #AA74FE;
+}
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
+	color: rgb(170, 170, 170);
+}
+#chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"] {
+    color: #FFDD6F !important;
+}
+#chat .chat-container .chat-messages .chat-main li.chat-system-loading, #chat .chat-container .chat-messages .chat-main li.chat-welcome-message, #chat .chat-container .chat-messages .chat-main li.system, #chat .chat-container .chat-messages .chat-main li.system-error {
+	font-size: 14px;
+}
+#chat .chat-main .isOwner .username,
+#chat .chat-main .isOwner .username:hover,
+#chat .chat-main .isOwner .username:visited{
+    color: #AA74FE !important;
+}
+
+#chat .chat-main .isCo-owner .username,
+#chat .chat-main .isCo-owner .username:hover,
+#chat .chat-main .isCo-owner .username:visited{
+    color: #AA74FE !important;
+}
+
+#chat .chat-main .isManager .username,
+#chat .chat-main .isManager .username:hover,
+#chat .chat-main .isManager .username:visited{
+    color: #AA74FE !important;
+}
+
+#chat .chat-main .isMod .username,
+#chat .chat-main .isMod .username:hover,
+#chat .chat-main .isMod .username:visited{
+    color: #AA74FE !important;
+}
+
+#chat .chat-main .isResident-dj .username,
+#chat .chat-main .isResident-dj .username:hover,
+#chat .chat-main .isResident-dj .username:visited{
+    color: #AA74FE !important;
+}
+#chat .chat-main .isVip .username,
+#chat .chat-main .isVip .username:hover,
+#chat .chat-main .isVip .username:visited{
+    color: #AA74FE !important;
+}
